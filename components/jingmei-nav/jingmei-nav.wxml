@@ -1,0 +1,27 @@
+<!--components/jingmei-nav/jingmei-nav.wxml-->
+<view class="tab">
+    <view class="nav-head" style="animation:{{isshow?'movein 0.5s':'moveout 0.5s'}}" bindtap="showSheet">{{txt}}</view>
+    
+      <view class="sheets" wx:if="{{isshow}}">
+       <view class="sheet">露天煤矿</view>
+       <view class="sheet">选煤厂</view>
+       <view class="sheet">洗煤厂</view>
+    </view>
+    <view class="nav-item">
+      <view class="item">原煤</view>
+      <view class="item">大块∨</view>
+      <view class="item">中块∨</view>
+      <view class="item">小块∨</view>
+      <view class="item">面煤∨</view>
+      <view class="item">煤泥∨</view>
+    </view>
+    <view class="nav-foot" bindtap="showitem">筛选</view>
+     
+     <view class="chooses" wx:if="{{choose}}">
+      <view class="choose">供应点</view>
+      <view class="choose">规格</view>
+      <view class="choose">指标</view>
+      <view class="choose">价格</view>
+    </view>
+   
+</view>

@@ -1,0 +1,44 @@
+.releaseSupplier {
+    width: 100%;
+    padding: 0 25rpx;
+    box-sizing: border-box;
+}
+
+.supplierTitleBox {
+    position: fixed;
+    width: 100%;
+    height: 100rpx;
+    line-height: 100rpx;
+    text-align: center;
+    top: 0;
+}
+
+.publishedBtnBox {
+    margin-top: 100rpx;
+}
+
+.supplierTitleBox>text {
+    font-size: 30rpx;
+    font-weight: bold;
+}
+
+.cancel {
+    position: absolute;
+    /* left: 25rpx; */
+}
+
+.releaseSupplierCatalog {
+    margin-top: 20rpx;
+    margin-bottom: 60rpx;
+}
+
+.releaseSupplierCatalogTitle {
+    font-size: 40rpx;
+}
+
+.releaseSupplierCatalogListItem>text {
+    height: 60rpx;
+    line-height: 60rpx;
+    font-size: 30rpx;
+    margin-right: 40rpx;
+}

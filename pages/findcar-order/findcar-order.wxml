@@ -1,0 +1,90 @@
+<!--pages/findcar-order/findcar-order.wxml-->
+<view class="findcar-order">
+  <view class="order-instance">
+    <view class="instance-site">
+      西安 长安 → 榆林 府谷
+    </view>
+    <view class="instance-flex">
+      <view class="instance-km">
+        预估距离为751.1km
+      </view>
+      <view class="instance-map">
+        查看地图
+      </view>
+    </view>
+    <view class="border"></view>
+  </view>
+  <view class="order-info">
+    <view class="info-title">车货信息</view>
+    <view class="info-flex">
+      <view class="info-grey">车辆</view>
+      <view class="info-size">整车 2.7米 高栏</view>
+    </view>
+    <view class="info-flex">
+      <view class="info-grey">货物</view>
+      <view class="info-size">煤炭, 50~100吨50~100方</view>
+    </view>
+    <view class="info-flex">
+      <view class="info-grey">特殊要求</view>
+      <view class="info-size">〈到付〉, 散装(定金请优先通过平台支付)</view>
+    </view>
+    <view class="border"></view>
+  </view>
+  <view class="load-info">
+    <view class="info-flex">
+      <view class="info-title">装卸信息</view>
+      <view class="info-grey" id="load">一装一卸</view>
+    </view>
+    <view class="info-flex">
+      <view class="info-icon">
+        <mp-icon icon="time" color="grey" type="field" size="10"></mp-icon>
+      </view>
+      <view class="info-gray">
+        05月02日 上午10:00前可装
+      </view>
+    </view>
+    <view class="info-flex">
+      <view class="info-icon"></view>
+      <view class="info-size">
+        陕西省西安市长安区韦曲街道青年北街119号兴隆小区
+      </view>
+    </view>
+    <view class="info-flex">
+      <view class="info-icon"></view>
+      <view class="info-size">
+        陕西省西安市长安区韦曲街道青年北街119号兴隆小区
+      </view>
+    </view>
+    <view class="border"></view>
+  </view>
+  <view class="pay-info">
+    <view class="info-title">支付信息</view>
+    <view class="info-flex">
+      <view class="info-grey">总运费</view>
+      <view class="info-price">1000.0元/趟</view>
+    </view>
+    <view class="info-flex">
+      <view class="info-grey">定金</view>
+      <view class="info-price">100元</view>
+    </view>
+    <view class="price-back">您确认收货后由平台退还给司机</view>
+    <view class="info-flex">
+      <view class="info-grey">净得运费</view>
+      <view class="info-price">1000.0元</view>
+    </view>
+    <view class="info-flex">
+      <view class="info-grey">支付方式</view>
+      <view class="info-size">到付</view>
+    </view>
+  </view>
+  <view class="order-hidden">隐藏显示</view>
+  <view class="info-flex"> 
+   <view class="order-delete">
+     删除货源
+  </view>
+  <view class="order-complie">
+    编辑
+  </view>
+  </view>
+ 
+</view>

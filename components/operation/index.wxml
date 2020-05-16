@@ -1,0 +1,14 @@
+<view class="operation">
+    <view class="operationItem">
+        <mp-icon icon="like" color="black" size="{{25}}" class="icon_like operationIcon"></mp-icon>
+        <text class="operationText">number</text>
+    </view>
+    <view class="operationItem">
+        <mp-icon icon="comment" color="black" size="{{25}}" class="icon_comment operationIcon"></mp-icon>
+        <text class="operationText">number</text>
+    </view>
+    <view class="operationItem">
+        <mp-icon icon="sending" color="black" size="{{25}}" class="icon_sending operationIcon"></mp-icon>
+        <text class="operationText">number</text>
+    </view>
+</view>

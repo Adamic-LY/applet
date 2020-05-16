@@ -1,0 +1,3 @@
+<view class="backbtn">
+    <mp-icon icon="back" color="black" size="{{15}}" class="icon icon_back icon_back_common"></mp-icon>
+</view>

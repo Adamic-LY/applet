@@ -1,0 +1,283 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"autoAudits": false,
+		"coverView": true,
+		"showShadowRootInWxmlPanel": true,
+		"scopeDataCheck": false
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.11.0",
+	"appid": "wx6f7df1d30e83e01a",
+	"projectname": "applet-sld",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"gamePlugin": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": -1,
+					"name": "公共组件-首页搜索栏",
+					"pathName": "components/searchBarIndex/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "全局组件-搜索栏",
+					"pathName": "components/searchBar/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "全局组件-菜单栏",
+					"pathName": "components/tabBar/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "全局组件-tab栏",
+					"pathName": "components/navBar/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "产品分类",
+					"pathName": "pages/productList/Index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "产品介绍",
+					"pathName": "pages/production/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "全局组件-返回按钮",
+					"pathName": "components/back/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "个人中心",
+					"pathName": "pages/user/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "全局组件-详情页发布按钮",
+					"pathName": "components/release/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "全局组件-操作-收藏评论转发",
+					"pathName": "components/operation/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "登录页",
+					"pathName": "pages/login/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "icon",
+					"pathName": "components/icon/icon",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "发布",
+					"pathName": "pages/release/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "test",
+					"pathName": "pages/test/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "全局组件-顶部标题+返回按钮",
+					"pathName": "components/title&back/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "发布-供应商",
+					"pathName": "pages/releaseSupplier/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "全局组件-我发布的按钮",
+					"pathName": "components/published/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "消息",
+					"pathName": "pages/messages/messages",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "轮播精煤",
+					"pathName": "pages/swiper-jingmei/swiper-jingmei",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "首页物流",
+					"pathName": "pages/index-wuliu/index-wuliu",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 20,
+					"name": "车队找活",
+					"pathName": "pages/findwork/findwork",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "活找车队",
+					"pathName": "pages/findcar/findcar",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "车队找货",
+					"pathName": "pages/findwork-cargo/findwork-cargo",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "页面二级导航",
+					"pathName": "components/jingmei-nav/jingmei-nav",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "发货详情",
+					"pathName": "pages/findcar-order/findcar-order",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "发货订单编辑",
+					"pathName": "pages/order-complie/order-complie",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "详情页功能直达",
+					"pathName": "components/details-fixed/details-fixed",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "精煤详情页",
+					"pathName": "pages/jingmei-details/jingmei-details",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "矿企",
+					"pathName": "pages/minningCompany/minningCompany",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "矿企导航栏",
+					"pathName": "components/minicomyBar/minicomyBar",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+<<<<<<< HEAD
+					"name": "精煤详情",
+					"pathName": "pages/plantdetails/plantdetails",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "立即购买",
+					"pathName": "pages/buynow/buynow",
+=======
+					"name": "立即购买",
+					"pathName": "pages/buynow/buynow",
+					"query": "",
+>>>>>>> 5-15,立即购买页面
+					"scene": null
+				}
+			]
+		}
+	}
+}

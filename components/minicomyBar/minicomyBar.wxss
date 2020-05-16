@@ -1,0 +1,57 @@
+/* components/minicomyBar/minicomyBar.wxss */
+.companyBar{
+  width: 750rpx;
+  background-color: black;
+  color: white
+}
+.companyBar-flex{
+  display: flex;
+  /* justify-content: space-around; */
+  padding: 20rpx; 
+  align-items: center
+}
+.comflex-image{
+  width: 100rpx;
+  height: 80rpx;
+}
+.comflex-image image{
+  width: 80rpx;
+  height: 80rpx;
+  border: 1rpx solid white;
+}
+.comflex-name{
+  width: 550rpx;
+  text-align: left;
+  font-weight: bold;
+  font-size: 30rpx;
+}
+.comflex-attention{
+  font-size: 30rpx;
+  width: 80rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+  background-color: white;
+  text-align: center;
+  color: grey;
+  border-radius: 6rpx;
+}
+.comflex-input input{
+  width: 450rpx;
+  height: 5rpx;
+  background-color: gainsboro;
+  border-radius: 10rpx;
+  font-size: 30rpx;
+}
+.comflex-service{
+  width: 300rpx;
+  text-align: right;
+  font-size: 35rpx;
+  font-weight: bold
+}
+.flexAround{
+  justify-content: space-between
+}
+.comflex-navbar{
+ font-size: 35rpx;
+ font-weight: bold
+}

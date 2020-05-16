@@ -1,0 +1,97 @@
+/* components/jingmei-nav/jingmei-nav.wxss */
+.tab{
+  display: flex;
+  position: relative
+}
+.nav-head{
+  width: 180rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  background-color: #139bf5;
+  text-align: center;
+  color: white;
+}
+.nav-item{
+   display: flex;
+   height: 60rpx;
+   max-width: 420rpx;
+   overflow-x: scroll;
+   overflow-y: hidden;
+    white-space: nowrap;
+}
+.item {
+    padding: 0 25rpx;
+    line-height: 60rpx;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    font-weight: bold
+}
+
+.sheets{
+  width: 180rpx;
+  height: 180rpx;
+  line-height: 60rpx;
+  background-color: rgba(193, 193, 201, 0.1);
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 60rpx;
+  left: 0rpx;
+  z-index: 99
+}
+.sheet {
+    width: 100%;
+    height: 60rpx;
+    line-height: 60rpx;
+}
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  color: transparent;
+}
+.relative{
+  position: relative
+}
+.nav-foot{
+  width: 150rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  font-size: 33rpx;
+  font-weight: bold;
+  text-align: center
+}
+@keyframes movein{
+  from{
+    left:-180rpx;
+  }
+  to{
+    left: 0rpx
+  }
+}
+@keyframes moveout{
+  from{
+    left:0rpx;
+  }
+  to{
+    left: -180rpx
+  }
+}
+.chooses{
+  width: 150rpx;
+  height: 240rpx;
+  background-color: #080808;
+  padding-left: 20rpx ;
+  box-sizing: border-box;
+  position: absolute;
+  top: 60rpx;
+  right: 20rpx;
+  z-index: 99
+}
+.choose{
+  font-size:25rpx;
+  color: white;
+  height: 60rpx;
+  width: 100%;
+  line-height: 60rpx;
+}

@@ -1,0 +1,85 @@
+<<<<<<< HEAD
+<!--index.wxml-->
+=======
+ <!--index.wxml-->
+>>>>>>> 5-15,立即购买页面
+<view>
+    <view class="searchBarBox"><search-bar-home></search-bar-home></view>
+    <view class="tabBarBox"><tab-bar></tab-bar></view>
+    <view class="indexContent">
+        <!-- 首页轮播图 -->
+        <swiper autoplay indicator-dots circular indicator-color="rgba(255, 255, 255, .3)" indicator-active-color="#fff">
+            <block>
+                <swiper-item class="data-v-74e39a5e">
+                    <navigator url="../../pages/swiper-jingmei/swiper-jingmei">
+                    <view class="home-top data-v-74e39a5e">
+                        <image src="../../static/image/banner.png" alt class="_img data-v-74e39a5e"></image>
+                    </view>
+                    </navigator>
+                </swiper-item>
+                <swiper-item class="data-v-74e39a5e">
+                    <view class="home-top data-v-74e39a5e">
+                        <image src="../../static/image/banner.png" alt class="_img data-v-74e39a5e"></image>
+                    </view>
+                </swiper-item>
+                <swiper-item class="data-v-74e39a5e">
+                    <view class="home-top data-v-74e39a5e">
+                        <image src="../../static/image/banner.png" alt class="_img data-v-74e39a5e"></image>
+                    </view>
+                </swiper-item>
+                <swiper-item class="data-v-74e39a5e">
+                    <view class="home-top data-v-74e39a5e">
+                        <image src="../../static/image/banner.png" alt class="_img data-v-74e39a5e"></image>
+                    </view>
+                </swiper-item>
+                <swiper-item class="data-v-74e39a5e">
+                    <view class="home-top data-v-74e39a5e">
+                        <image src="../../static/image/banner.png" alt class="_img data-v-74e39a5e"></image>
+                    </view>
+                </swiper-item>
+            </block>
+        </swiper>
+        <!-- 首页功能按钮 -->
+        <view class="homeMenu">
+            <view class="homeMenuList">
+                <view class="homeMenuListDetails" bindtap="gojingmei">
+                    <image src="../../static/icon/car.png" alt=""></image>
+                    <block>精煤</block>
+                </view>
+                <view class="homeMenuListDetails" bindtap="golantan">
+                    <image src="../../static/icon/car.png" alt=""></image>
+                    <block>兰炭</block>
+                </view>
+                <view class="homeMenuListDetails" bindtap="gowuyanmei">
+                    <image src="../../static/icon/car.png" alt=""></image>
+                    <block>无烟煤</block>
+                </view>
+                <view class="homeMenuListDetails" bindtap="gojinshumei">
+                    <image src="../../static/icon/car.png" alt=""></image>
+                    <block>金属镁</block>
+                </view>
+            </view>
+            <view class="homeMenuList">
+                <view class="homeMenuListDetails" bindtap="gomeijiaoyou">
+                    <image src="../../static/icon/car.png" alt=""></image>
+                    <block>煤焦油</block>
+                </view>
+                <view class="homeMenuListDetails" bindtap="gohuagong">
+                    <image src="../../static/icon/car.png" alt=""></image>
+                    <block>煤化工设备</block>
+                </view>
+                <view class="homeMenuListDetails" bindtap="goshebei">
+                    <image src="../../static/icon/car.png" alt=""></image>
+                    <block>煤矿设备</block>
+                </view>
+                <view class="homeMenuListDetails" bindtap="gowuliu">
+                    <image src="../../static/icon/car.png" alt=""></image>
+                    <block>物流运输</block>
+                </view>
+            </view>
+        </view>
+        <view class="homeBanner">
+            平台介绍招商加盟
+        </view>
+    </view>
+</view>

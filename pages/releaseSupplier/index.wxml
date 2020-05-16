@@ -1,0 +1,32 @@
+<!-- 发布-供应商 -->
+<view class="releaseSupplier">
+    <view class="supplierTitleBox">
+        <text class="cancel">取消</text>
+        <text class="supplierTitle">供应商</text>
+    </view>
+    <view class="publishedBtnBox">
+        <published-btn></published-btn>
+    </view>
+    <!-- 产品类型选择 -->
+    <view class="releaseSupplierCatalog">
+        <view class="releaseSupplierCatalogTitle">产品</view>
+        <view class="releaseSupplierCatalogList">
+            <view class="releaseSupplierCatalogListItem">
+                <text>精煤</text>
+                <text>兰炭</text>
+                <text>无烟煤</text>
+                <text>金属镁</text>
+            </view>
+            <view class="releaseSupplierCatalogListItem">
+                <text>煤焦油</text>
+                <text>煤化工设备</text>
+                <text>煤矿设备</text>
+                <text>物流运输</text>
+            </view>
+        </view>
+    </view>
+    <!-- 产品标题名称 -->
+    <view class="releaseSupplierTitle">
+        <input type="text" placeholder="请输入产品标题名称"></input>
+    </view>
+</view>

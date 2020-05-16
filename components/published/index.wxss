@@ -1,0 +1,8 @@
+.publishedBtn {
+    width: 700rpx;
+    height: 100rpx;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+}

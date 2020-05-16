@@ -1,0 +1,4 @@
+<view class="title">
+    <mp-icon icon="back" color="black" size="{{15}}" class="icon icon_back"></mp-icon>
+    <text>{{title}}</text>
+</view>

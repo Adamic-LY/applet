@@ -1,0 +1,22 @@
+<view class="release">
+    <view class="backBox">
+        <back-btn class="release_back"></back-btn>
+        <text>发布</text>
+    </view>
+    <view class="tabBarBox">
+        <tab-bar></tab-bar>
+    </view>
+    <view class="releaseBanner">
+        <view class="releaseBannerBox"></view>
+    </view>
+    <view class="releaseItemBox">
+        <view class="releaseItem">
+            <view class="releaseBtn">供应商</view>
+            <view class="releaseBtn">采购商</view>
+        </view>
+        <view class="releaseItem">
+            <view class="releaseBtn">运输车队找活</view>
+            <view class="releaseBtn">发货照运输车队</view>
+        </view>
+    </view>
+</view>

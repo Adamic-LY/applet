@@ -1,0 +1,59 @@
+/* pages/findcar-cargo/findcar-cargo.wxss */
+.jiange{
+  height: 10rpx;
+}
+.cargo-items{
+  width: 720rpx;
+  height: 300rpx;
+  margin: 10rpx auto;
+  border: 1rpx solid black;
+  display: flex
+}
+.item-image{
+  width: 270rpx;
+  height: 300rpx;
+  border-right: 1rpx solid black;
+}
+.item-txt{
+  width: 430rpx;
+  height: 300rpx;
+  margin: 0 auto;
+}
+.item-flex{
+  display: flex;
+  justify-content: space-between
+}
+.item-luxian{
+  font-size: 30rpx;
+  font-weight: bold
+}
+.item-price{
+  font-size: 30rpx;
+  font-weight: bold;
+  color: #a20000;
+  margin-bottom: 40rpx;
+}
+.item-size{
+  font-size: 25rpx;
+  font-weight: bold;
+}
+.item-way{
+  font-size: 25rpx;
+  font-weight: bold;
+}
+.item-time,.item-instance,.item-name,.item-evaluate{
+  font-size: 25rpx;
+  font-weight: bold
+}
+.jianju{
+  height: 30rpx;
+}
+.item-call{
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 50%;
+  border: 1rpx solid black;
+  position: relative;
+  top: -70rpx;
+  right: -360rpx;
+}

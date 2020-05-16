@@ -1,0 +1,28 @@
+/* components/message-bar/message-bar.wxss */
+.navbar{
+  position: fixed;
+  top: 40rpx;
+  width: 750rpx;
+  height: 400rpx;
+  background-color: black;
+  color: white
+}
+.goback{
+  position: relative;
+  left: 50rpx;
+  top: 15rpx;
+  font-size: 60rpx;
+  font-weight: bold;
+}
+.title{
+  position: relative;
+  bottom: 63rpx;
+  right: 25rpx;
+  font-weight: bold
+}
+.inp{
+  width: 600rpx;
+  height: 120rpx;
+  background-color: white;
+  margin: 0 auto
+}

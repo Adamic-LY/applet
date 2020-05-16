@@ -1,0 +1,91 @@
+/* pages/order-complie/order-complie.wxss */
+page{
+  background-color: #f2f2f2;
+}
+.complie-i{
+  width: 710rpx;
+  margin: 20rpx auto;
+  background-color: white;
+  border-radius: 10rpx;
+}
+.i-flex{
+  width: 680rpx;
+  margin: 0 auto;
+  display: flex;
+  border-bottom: 1rpx solid #f2f2f2;
+  align-items: center;
+  justify-content: space-between
+}
+.loadtime{
+  font-size: 30rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+
+}
+.time-btn{
+  position: relative;
+  left: 160rpx;
+  border: none!important;
+  font-size: 30rpx!important;
+  color: grey!important;
+  text-align: right;
+  font-weight: normal;
+}
+.explain{
+  position: relative;
+  left: 80rpx;
+  width: 350rpx;
+  font-size: 30rpx;
+  color: gray;
+  text-align: right
+}
+#xuantian{
+  width: 200rpx;
+  position: relative;
+  top: -20rpx;
+  left: 110rpx;
+  font-size: 30rpx;
+  text-align: center;
+  line-height: 60rpx;
+  border: 1rpx solid grey;
+  height: 60rpx
+}
+.hint{
+  font-size: 20rpx;
+  color: gray;
+  height: 30rpx;
+  line-height: 30rpx;
+  background-color: #fdf3e8;
+}
+#i-btn{
+  width: 680rpx;
+  height: 130rpx;
+  align-items: center;
+  margin: 20rpx auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.flex-btn{
+  margin-right: 20rpx;
+  width: 140rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  background-color: #f6f6f6;
+  font-size: 25rpx;
+  text-align: center;
+}
+.jiange1{
+  height: 10rpx;
+}
+.activity{
+  font-size: 25rpx;
+  background-color: #f2f2f2;
+  padding: 10rpx;
+  position: relative;
+  left: -80rpx
+}
+input-placeholder{
+  font-size: 30rpx;
+  text-align: right
+}
+

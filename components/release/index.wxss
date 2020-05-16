@@ -1,0 +1,12 @@
+.details_release{
+    position: fixed;
+    right: 30rpx;
+    bottom: 300rpx;
+    background-color: #666;
+    width: 100rpx;
+    height: 100rpx;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100rpx;
+    color: #fff;
+}

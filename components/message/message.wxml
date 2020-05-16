@@ -1,0 +1,4 @@
+<!--components/message/message.wxml-->
+<navigator url="../../pages/messages/messages">
+  <view class="btn">消息</view>
+</navigator>

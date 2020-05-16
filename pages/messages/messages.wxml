@@ -1,0 +1,6 @@
+<!--pages/messages/messages.wxml-->
+<view>
+  <view class="navbar">
+    <message-bar></message-bar>
+  </view>
+</view>

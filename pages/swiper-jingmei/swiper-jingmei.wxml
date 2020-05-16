@@ -1,0 +1,36 @@
+<!--pages/swiper-jingmei/swiper-jingmei.wxml-->
+<view>
+  <view class="searchbar">
+    <search-bar></search-bar>
+  </view>
+  <view class="navbar">
+    <nav-bar></nav-bar>
+  </view>
+  <view class="video"></view>
+  <view class="txt">精煤功能介绍</view>
+  <view class="companyList" wx:for="{{companyList}}" wx:key="index">
+    <view class="companyName">
+      <view class="portrait">
+        <image src=""></image>
+      </view>
+      <view class="nickname">万润达兰炭集团</view>
+    </view>
+    <view class="companyImage">
+      <view class="right">
+        <view class="floatRight">
+          <view class="size">❤</view>
+          <view class="size">23W</view>
+        </view>
+        <view class="floatRight">
+          <view class="size">❤</view>
+          <view class="size">23W</view>
+        </view>
+        <view class="floatRight">
+          <view class="size">❤</view>
+          <view class="size">23W</view>
+        </view>
+      </view>
+      <view class="companyTxt">万润达兰炭集团有限公司精煤的用途</view>
+    </view>
+  </view>
+</view>

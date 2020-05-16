@@ -1,0 +1,110 @@
+/* pages/findcar-order/findcar-order.wxss */
+.findcar-order{
+  text-indent: 20rpx;
+}
+.order-instance{
+  border-top: 1rpx solid black;
+  width: 750rpx;
+}
+.instance-site{
+  font-size: 35rpx;
+  font-weight: bold;
+  margin-top: 20rpx;
+}
+.instance-flex{
+  display: flex
+}
+.instance-km{
+  font-size: 30rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+}
+.instance-map{
+  font-size: 30rpx;
+  color: #5c95f4;
+  padding-left: 20rpx;
+    height: 60rpx;
+  line-height: 60rpx;
+}
+.border{
+  width: 750rpx;
+  height: 20rpx;
+  background-color: #f7f7f7;
+  padding-left: 0;
+}
+.order-info{
+  width: 750rpx;
+}
+.info-title{
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 30rpx;
+  font-weight: bold
+}
+.info-flex{
+  display: flex;
+}
+.info-grey{
+  width: 130rpx;
+  font-size: 25rpx;
+  color: #999999;
+  height: 50rpx;
+  line-height: 50rpx;
+}
+.info-size{
+  font-size: 25rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+}
+#load{
+  font-size: 28rpx;
+  font-weight: bold;
+  height: 80rpx;
+  line-height: 80rpx;
+  width: 200rpx;
+}
+.info-gray{
+  font-size: 25rpx;
+  color: #999999;
+  height: 50rpx;
+  line-height: 50rpx;
+}
+.info-icon{
+  position: relative;
+  top: -5rpx;
+}
+.info-price{
+  font-size: 25rpx;
+  color: #eb8d3c;
+  height: 50rpx;
+  line-height: 50rpx;
+}
+.order-hidden{
+  border-top: 1rpx solid gray;
+  border-bottom: 1rpx solid gray;
+  width: 750rpx;
+  height: 80rpx;
+  font-size: 30rpx;
+  color: #eb8d3c;
+  line-height: 80rpx;
+  text-align: center
+}
+.order-delete{
+  width: 374rpx;
+  height: 100rpx;
+  font-size: 35rpx;
+  font-weight: bold;
+  color: gray;
+  border-right: 1rpx solid gray;
+  line-height: 100rpx;
+  text-align: center
+}
+.order-complie{
+   width: 374rpx;
+  height: 100rpx;
+  font-size: 35rpx;
+  font-weight: bold;
+  color: gray;
+  line-height: 100rpx;
+  text-align: center
+}

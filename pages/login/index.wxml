@@ -1,0 +1,21 @@
+<view class="login">
+    <view class="loginbox">
+        <view class="loginPic">
+            <image class="" src="../../static/icon/car.png" mode="aspectFit" lazy-load="false" binderror="" bindload=""></image>
+        </view>
+        <view class="loginText">
+            <view class="loginUsername loginTextItem">
+                <input type="text" placeholder="请输入账号"></input>
+                <mp-icon icon="me" color="black" size="{{25}}" class="icon icon_me iconLogin"></mp-icon>
+            </view>
+            <view class="loginpwd loginTextItem">
+                <input type="text" placeholder="请输入密码"></input>
+                <mp-icon icon="lock" color="black" size="{{25}}" class="icon icon_lock iconLogin"></mp-icon>
+            </view>
+        </view>
+        <view class="operationBox">
+            <input class="loginBtn" type="button" value="登录"></input>
+            <input class="logonBtn" type="button" value="注册"></input>
+        </view>
+    </view>
+</view>

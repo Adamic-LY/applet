@@ -1,0 +1,33 @@
+<!--pages/findcar-cargo/findcar-cargo.wxml-->
+<view>
+  <view class="searchbarBox">
+    <search-bar></search-bar>
+  </view>
+  <view class="jingmei-navBox">
+    <jingmei-nav></jingmei-nav>
+  </view>
+  <view class="jiange"></view>
+  <view class="cargo-items" wx:for="{{5}}" wx:key="{{index}}">
+    <view class="item-image">
+      <image src=""></image>
+    </view>
+    <view class="item-txt">
+      <view class="item-flex">
+        <view class="item-luxian">西安 长安 - 榆林 府谷</view>
+        <view class="item-time">4分钟前</view>
+      </view>
+       <view class="item-flex">
+        <view class="item-price">480元/吨</view>
+        <view class="item-instance">约134米装货</view>
+      </view>
+      <view class="item-size">11.7/12.5/13米/高栏/300吨</view>
+      <view class="item-way">煤炭 散装 今天下午装货 一装一卸</view>
+      <view class="jianju"></view>
+      <view class="item-name">同亚鹅</view>
+      <view class="item-evaluate">交易283  好评76%</view>
+      <view class="item-call">
+         <icon></icon>
+      </view>
+    </view>
+  </view>
+</view>

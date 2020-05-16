@@ -1,0 +1,9 @@
+<!--components/message-bar/message-bar.wxml-->
+<view>
+<view class="navbar">
+   <view class="goback" bindtap="goback">＜</view>
+   <view class="title">消息</view>
+ <input class="inp"></input>
+</view>
+</view>
+

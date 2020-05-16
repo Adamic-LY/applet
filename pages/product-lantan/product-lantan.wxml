@@ -1,0 +1,59 @@
+<view>
+    <view class="searchBarBox">
+        <search-bar></search-bar>
+    </view>
+    <view class="navBarBox">
+        <nav-bar></nav-bar>
+    </view>
+    <view class="tabBarBox">
+        <tab-bar></tab-bar>
+    </view>
+    <view class="cleanedCoal">
+        <view class="menuList">
+            <!-- 一级菜单 -->
+            <view class="firstLevelMenu">
+                <view class="firstLevelMenuList">兰炭大料</view>
+                <view class="firstLevelMenuList">兰炭中料</view>              
+                <view class="firstLevelMenuList">兰炭小料</view>
+                <view class="firstLevelMenuList">兰炭米料</view>
+                <view class="firstLevelMenuList">兰炭面</view>               
+            </view>
+        </view>
+        <view class="productList ">
+            <view class="productListItem">
+                <image src="../../static/image/product.png" class=productListItemImg " mode="widthFix "></image>
+                <view class="ProTitle textStyle ">原煤</view>
+                <view class="ProTitle ProTitleDEt textStyle ">府谷县瑞丰煤矿</view>
+                <view class="bannerText ">广告广告广告广告广告广告</view>
+                <view class="productListItem_left textStyle ">
+                    <view class="portNum ">发热量高 5900</view>
+                    <view class="portNum ">发热量高 5900</view>
+                    <view class="portNum ">水分 15%</view>
+                </view>
+                <view class="productListItem_right textStyle ">
+                    <view class="portNum ">硫 0.2%</view>
+                    <view class="portNum ">灰分 10%</view>
+                    <view class="portNum ">挥发 6%</view>
+                </view>
+                <image src="../../static/image/product.png " class=productListItemPortImg" mode="widthFix"></image>
+            </view>
+            <view class="productListItem">
+                <image src="../../static/image/product.png" class=productListItemImg " mode="widthFix "></image>
+                <view class="ProTitle textStyle ">原煤</view>
+                <view class="ProTitle ProTitleDEt textStyle ">府谷县瑞丰煤矿</view>
+                <view class="bannerText ">广告广告广告广告广告广告</view>
+                <view class="productListItem_left textStyle ">
+                    <view class="portNum ">发热量高 5900</view>
+                    <view class="portNum ">发热量高 5900</view>
+                    <view class="portNum ">水分 15%</view>
+                </view>
+                <view class="productListItem_right textStyle ">
+                    <view class="portNum ">硫 0.2%</view>
+                    <view class="portNum ">灰分 10%</view>
+                    <view class="portNum ">挥发 6%</view>
+                </view>
+                <image src="../../static/image/product.png " class=productListItemPortImg" mode="widthFix"></image>
+            </view>
+        </view>
+    </view>
+</view>

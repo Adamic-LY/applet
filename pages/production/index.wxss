@@ -1,0 +1,26 @@
+.production{
+    width: 100%;
+    padding: 20rpx;
+    margin-bottom: 100rpx;
+    box-sizing: border-box;
+}
+.productionItem{
+    margin-bottom: 30rpx;
+}
+.headIcon{
+    width: 30rpx;
+    height: 30rpx;
+    border-radius: 50%;
+    margin-right: 30rpx;
+    vertical-align: middle;
+}
+.nicName{
+    font-size: 28rpx;
+}
+.productionPicture{
+    width: 100%;
+}
+.productionText>text{
+    font-size: 35rpx;
+    font-weight: bold;
+}

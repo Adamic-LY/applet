@@ -1,0 +1,37 @@
+/* pages/findwork/findwork.wxss */
+.banners{
+  width: 720rpx;
+  height: 450rpx;
+  margin: 0 auto;
+ 
+}
+.banner{
+  width: 720rpx;
+  height: 450rpx;
+  text-align: center;
+   display: flex;
+  flex-wrap: wrap;
+}
+.bannerCon{
+  width: 180rpx;
+  height: 120rpx;
+}
+.bannerIcon{
+  margin: 0 auto;
+  width: 90rpx;
+  height: 90rpx;
+  border: 1rpx solid black;
+  border-radius: 50%;
+}
+.bannerName{
+  font-size: 30rpx;
+  font-weight: bold
+}
+.myMotorcade{
+  width: 450rpx;
+  height: 100rpx;
+  border: 1rpx solid black;
+  margin: 100rpx auto;
+  text-align: center;
+  line-height: 100rpx;
+}

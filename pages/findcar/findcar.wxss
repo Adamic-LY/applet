@@ -1,0 +1,74 @@
+/* pages/findcar/findcar.wxss */
+.findcar-item{
+  width: 720rpx;
+  height: 260rpx;
+  margin: 10rpx auto;
+}
+.flex-item{
+   width: 720rpx;
+  height: 200rpx;
+  display: flex;
+}
+.item-image{
+  width: 200rpx;
+  height: 200rpx;
+  border: 1rpx solid black;
+}
+.item-txt{
+  width: 500rpx;
+  height: 200rpx;
+  position: relative;
+  left: 20rpx;
+}
+.item-flex{
+  display: flex;
+}
+.item-luxian{
+  font-size: 30rpx;
+  font-weight: bold;
+}
+.item-visite{
+  position: relative;
+  left: 30rpx;
+  font-size: 30rpx;
+  font-weight: bold;
+  color: grey
+}
+.item-price{
+  font-size: 30rpx;
+  font-weight: bold;
+  color: #a20000;
+  margin-bottom: 40rpx;
+}
+.item-size{
+  font-size: 25rpx;
+  font-weight: bold;
+}
+.item-way{
+  font-size: 25rpx;
+  font-weight: bold;
+}
+.item-btns{
+  width: 720rpx;
+  height: 100rpx;
+  position: relative;
+  top: 20rpx;
+  display: flex;
+  justify-content: space-between
+}
+.item-btn{
+  width: 150rpx;
+  height: 50rpx;
+  font-size: 30rpx;
+  color: white;
+  background-color: black;
+  text-align: center;
+  line-height: 50rpx;
+  border-radius: 5rpx;
+}
+.item-time{
+  font-size: 30rpx;
+  font-weight: bold;
+  position: relative;
+  left: 50rpx
+}

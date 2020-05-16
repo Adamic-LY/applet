@@ -1,0 +1,72 @@
+.home.data-v-74e39a5e {
+    width: 100%;
+    padding-bottom: 70px;
+}
+
+.home-top.data-v-74e39a5e {
+    width: 100%;
+    height: calc(50vh - 100rpx);
+}
+
+.home-top ._img.data-v-74e39a5e {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.home-show.data-v-74e39a5e {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    width: 100%;
+}
+
+.homeMenu {
+    margin-top: 50rpx;
+    height: 350rpx;
+}
+
+.homeMenu .homeMenuList {
+    height: 160rpx;
+    display: flex;
+}
+
+.homeMenu .homeMenuList .homeMenuListDetails {
+    flex: 1;
+    text-align: center;
+}
+
+.homeMenu .homeMenuList image {
+    width: 50rpx;
+    height: 50rpx;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    margin-bottom: 20rpx;
+}
+
+
+/* 广告 */
+
+.homeBanner {
+    width: 700rpx;
+    margin: 0 auto;
+    height: 200rpx;
+    line-height: 200rpx;
+    text-align: center;
+    border: 1px solid #eee;
+}
+
+.searchBarBox{
+    width: 100vw;
+    position: fixed;
+    top: 0;
+}
+.tabBarBox{
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+}
+.indexContent{
+    margin-top: 100rpx;
+}

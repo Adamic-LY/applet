@@ -1,0 +1,24 @@
+<!--pages/jingmei-details/jingmei-details.wxml-->
+<view>
+<<<<<<< HEAD
+=======
+<view class="jingmeidetailsFix">
+>>>>>>> 5-15,立即购买页面
+  <details-fixed></details-fixed>
+</view>
+<view class="detailsSwiper">
+   <swiper indicator-dots="true" autoplay="true" circular="true">
+     <swiper-item wx:for="{{5}}" wx:key="index">
+<<<<<<< HEAD
+        <image src="../../static/image/product.png"></image>
+     </swiper-item>
+   </swiper>
+</view>
+
+=======
+        <image mode="scaleToFill" src="../../static/image/product.png"></image>
+     </swiper-item>
+   </swiper>
+</view>
+</view>
+>>>>>>> 5-15,立即购买页面

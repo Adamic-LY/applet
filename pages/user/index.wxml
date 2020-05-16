@@ -1,0 +1,5 @@
+<view>
+    <view class="backBox">
+        <back-btn></back-btn>
+    </view>
+</view>

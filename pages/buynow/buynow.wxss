@@ -1,0 +1,264 @@
+/* pages/buynow/buynow.wxss */
+<<<<<<< HEAD
+page{
+  background-color: #f2f2f2
+}
+.consigneeinfo{
+ width: 720rpx;
+ background-color: white;
+ border-radius: 10rpx;
+ margin: 20rpx auto;
+ display: flex;
+ justify-content: space-around;
+ align-items: center
+}
+.consigneeinfo-icon{
+  width: 50rpx;
+  height: 50rpx;
+  border: 1rpx solid black;
+  border-radius: 50%
+}
+.consigneerecevinginfo{
+  width: 500rpx;
+}
+.consigneepeople-name,.consigneepeople-phone{
+  display: inline-block
+}
+.consigneepeople-name{
+  font-size: 35rpx;
+  font-weight: bold
+}
+.consigneepeople-phone{
+=======
+
+page {
+  background-color: #f2f2f2;
+}
+
+.consigneeinfo {
+  width: 720rpx;
+  background-color: white;
+  border-radius: 10rpx;
+  margin: 20rpx auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.consigneeinfo-icon {
+  width: 50rpx;
+  height: 50rpx;
+  border: 1rpx solid black;
+  border-radius: 50%;
+}
+
+.consigneerecevinginfo {
+  width: 500rpx;
+}
+
+.consigneepeople-name, .consigneepeople-phone {
+  display: inline-block;
+}
+
+.consigneepeople-name {
+  font-size: 35rpx;
+  font-weight: bold;
+}
+
+.consigneepeople-phone {
+>>>>>>> 5-15,立即购买页面
+  font-size: 30rpx;
+  color: grey;
+  text-indent: 20rpx;
+}
+<<<<<<< HEAD
+.receiveraddress{
+  font-size: 30rpx;
+  font-weight: bold
+}
+.receiverexplanation{
+  font-size: 30rpx;
+  color: #ec612a
+}
+=======
+
+.receiveraddress {
+  font-size: 30rpx;
+  font-weight: bold;
+}
+
+.receiverexplanation {
+  font-size: 30rpx;
+  color: #ec612a;
+}
+
+.orderinfo {
+  width: 720rpx;
+  background-color: white;
+  border-radius: 10rpx;
+  margin: 20rpx auto;
+}
+
+.orderinfo-image {
+  width: 100rpx;
+  height: 100rpx;
+  display: inline-block;
+}
+
+.orderinfo-image image {
+  width: 60rpx;
+  height: 60rpx;
+  border: 1rpx solid black;
+  position: relative;
+  top: 10rpx;
+  left: 10rpx;
+}
+
+.orderinfo-companyname {
+  display: inline-block;
+  font-size: 40rpx;
+  font-weight: bold;
+}
+
+.orderinfo-flex {
+  display: flex;
+  width: 700rpx;
+  margin-left: 20rpx;
+}
+
+.orderinfoproductimage image {
+  width: 180rpx;
+  height: 180rpx;
+  border: 1rpx solid black;
+  margin-right: 10rpx;
+}
+
+.productinfo-flex {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100rpx;
+}
+
+.productName {
+  width: 100rpx;
+  font-size: 30rpx;
+  font-weight: bold;
+}
+
+.productplace {
+  font-size: 30rpx;
+  width: 260rpx;
+  font-weight: bold;
+}
+
+.productPrice {
+  font-size: 30rpx;
+  width: 150rpx;
+  font-weight: bold;
+}
+
+.deliveryTime {
+  font-size: 25rpx;
+  font-weight: bold;
+  color: #ebad4c;
+}
+
+.orderinfoDetails {
+  width: 640rpx;
+  margin-left: 80rpx;
+  box-sizing: border-box;
+}
+
+.buynumber {
+  display: flex;
+  width: 600rpx;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.buynumberflex {
+  display: flex;
+}
+
+.buynumberbtn {
+  width: 50rpx;
+  height: 50rpx;
+  text-align: center;
+  line-height: 50rpx;
+  border: 1rpx solid #f2f2f2;
+  border-radius: 5rpx 0 0 5rpx;
+}
+
+.buynumberTxt {
+  font-size: 25rpx;
+  line-height: 50rpx;
+}
+
+.buynumbernum {
+  font-size: 25rpx;
+  width: 70rpx;
+  border-top: 1rpx solid #f2f2f2;
+  border-bottom: 1rpx solid #f2f2f2;
+  text-align: center;
+  line-height: 50rpx;
+}
+.txtsize{
+  font-size: 25rpx;
+  line-height: 50rpx;
+}
+.buynumberradio{
+  transform: scale(0.6)
+}
+.buynumber input{
+  font-size: 25rpx;
+}
+.aggregate{
+  width: 600rpx;
+  margin: 0 auto;
+  text-align: right
+}
+.aggregateinline{
+  display: inline-block;
+  font-size: 25rpx;
+  box-sizing: border-box;
+  padding-left: 10rpx;
+}
+.payforanother{
+  width: 720rpx;
+  background-color: white;
+  border-radius: 10rpx;
+  margin: 20rpx auto;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 10rpx;
+}
+.payforanothertxt{
+  font-size: 30rpx
+}
+.anonymousPurchase{
+  width: 720rpx;
+  margin: 0 auto;
+}
+.anonymousPurchaseRadio{
+  transform: scale(0.6)
+}
+.submitcon{
+  width: 750rpx;
+  height: 100rpx;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  background-color: white;
+  line-height: 100rpx
+}
+.submitbtn{
+  width: 200rpx;
+  height: 100rpx;
+  background-color: black;
+  font-size: 30rpx;
+  color: white;
+  text-align: center;
+  margin-left: 10rpx;
+}
+>>>>>>> 5-15,立即购买页面

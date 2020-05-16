@@ -1,0 +1,111 @@
+/* pages/minningCompany/minningCompany.wxss */
+
+.items{
+  margin: 0 10rpx;
+<<<<<<< HEAD
+=======
+  box-sizing: border-box
+>>>>>>> 5-15,立即购买页面
+}
+.flex{
+  display: flex
+}
+.border{
+  width: 750rpx;
+  height: 30rpx;
+  background-color: #faf9f9
+}
+.image-mei image{
+<<<<<<< HEAD
+  width: 230rpx;
+=======
+  width: 210rpx;
+>>>>>>> 5-15,立即购买页面
+  height: 250rpx;
+}
+.details{
+  width: 370rpx;
+<<<<<<< HEAD
+  height: 230rpx;
+=======
+  height: 250rpx;
+>>>>>>> 5-15,立即购买页面
+  margin-left: 10rpx;
+}
+.report{
+  margin-left: 10rpx
+}
+.report image{
+<<<<<<< HEAD
+  width: 140rpx;
+=======
+  width: 130rpx;
+>>>>>>> 5-15,立即购买页面
+  height: 220rpx
+}
+
+.tag{
+  font-size: 30rpx;
+  font-weight: bold;
+  padding-right: 20rpx;
+<<<<<<< HEAD
+=======
+  box-sizing: border-box
+>>>>>>> 5-15,立即购买页面
+}
+.tagname{
+  font-size: 30rpx;
+  font-weight: bold;
+}
+.productprice{
+  display: flex;
+  align-items: center
+}
+.price{
+  font-size: 35rpx;
+  font-weight: bold;
+  color: #fc3f00;
+}
+.discounts{
+  margin-left: 10rpx;
+  height: 30rpx;
+  line-height: 30rpx;
+  font-size: 25rpx;
+  color: #fa3e3e;
+  text-align: center;
+  border: 1rpx solid #fa3e3e;
+}
+.elements{
+  width: 370rpx;
+  font-size: 25rpx;
+  font-weight: bold
+}
+.float-left{
+  float: left
+}
+.float-right{
+  float: right
+}
+.referral{
+  width: 200rpx;
+  height: 30rpx;
+  display: flex;
+  justify-content: space-around;
+  background-color: #f36503;
+  border-radius: 5rpx;
+}
+.referral-txt{
+  font-size: 20rpx;
+  color: #f7eaf8;
+}
+.productevaluate{
+  width: 230rpx;
+  height: 20rpx;
+  display: flex;
+  justify-content: space-between
+}
+.evaluate{
+  line-height: 20rpx;
+  font-size: 20rpx;
+  color: #b5b5b2
+}

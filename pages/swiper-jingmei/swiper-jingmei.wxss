@@ -1,0 +1,59 @@
+/* pages/swiper-jingmei/swiper-jingmei.wxss */
+.video{
+  width: 750rpx;
+  height: 500rpx;
+  background-color: black;
+  margin-top: 100rpx;
+}
+.txt{
+  height: 120rpx;
+  font-size: 35rpx;
+  font-weight: bold;
+  position: relative;
+  top: 20rpx;
+  left: 20rpx;
+}
+.companyList{
+  width: 710rpx;
+  height: 500rpx;
+  margin: 30rpx 20rpx;
+  border: 1rpx solid black
+}
+.companyName{
+  display: flex;
+  align-items: center
+}
+.portrait{
+   width: 80rpx;
+   height: 80rpx;
+   border-radius: 50%;
+   border: 1px solid black
+}
+.nickname{
+  position: relative;
+  left: 20rpx;
+  font-size: 30rpx;
+  font-weight: bold
+}
+.companyImage{
+  width: 710rpx;
+  height: 250rpx;
+  background-color: orchid;
+  margin-top: 30rpx;
+}
+.right{
+  float: right;
+  position: relative;
+  top:5rpx;
+}
+.floatRight{
+  font-size: 28rpx;
+  color: white;
+  text-align: center
+}
+.companyTxt{
+  position: relative;
+  top: 270rpx;
+  font-weight: bold;
+  font-size: 35rpx;
+}

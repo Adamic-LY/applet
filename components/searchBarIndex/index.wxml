@@ -1,0 +1,10 @@
+<view class="searchBar">
+    <view class="location">
+        <mp-icon icon="location" color="black" size="{{20}}" class="icon icon_location"></mp-icon>
+        <text>榆林</text>
+    </view>
+    <view class="serchBar_box">
+        <input type="search" placeholder="请输入公司或输入产品" class="searchBar_input"></input>
+        <mp-icon icon="search" color="black" size="{{20}}" class="icon icon_search"></mp-icon>
+    </view>
+</view>

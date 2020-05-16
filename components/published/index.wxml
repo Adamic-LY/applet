@@ -1,0 +1,3 @@
+<view class="published">
+    <input class="publishedBtn" type="button" value="我发布的"></input>
+</view>

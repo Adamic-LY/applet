@@ -1,0 +1,131 @@
+<!--pages/product-meijiaoyou/product-meijiaoyou.wxml-->
+<view>
+    <view class="searchBarBox">
+        <search-bar></search-bar>
+    </view>
+    <view class="navBarBox">
+        <nav-bar></nav-bar>
+    </view>
+    <view class="tabBarBox">
+        <tab-bar></tab-bar>
+    </view>
+    <view class="cleanedCoal">
+        <view class="menuList">
+            <!-- 一级菜单 -->
+            <view class="firstLevelMenu">
+                <view class="firstLevelMenuList">精煤</view>
+                <!-- 二级菜单 -->
+                <view class="weui-cells weui-cells_after-title cellBox">
+                    <navigator url="" class="weui-cell weui-cell_access secMenu" hover-class="weui-cell_active">
+                        <view class="weui-cell__bd cellBD">大块</view>
+                        <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+                    </navigator>
+                    <navigator url="" class="weui-cell weui-cell_access secMenu" hover-class="weui-cell_active">
+                        <view class="weui-cell__bd cellBD">中块</view>
+                        <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+                    </navigator>
+                    <navigator url="" class="weui-cell weui-cell_access secMenu" hover-class="weui-cell_active">
+                        <view class="weui-cell__bd cellBD">小块</view>
+                        <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+                    </navigator>
+                    <navigator url="" class="weui-cell weui-cell_access secMenu" hover-class="weui-cell_active">
+                        <view class="weui-cell__bd cellBD">面煤</view>
+                        <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+                    </navigator>
+                </view>
+                <view class="firstLevelMenuList">洗精煤</view>
+                <!-- 二级菜单 -->
+                <view class="weui-cells weui-cells_after-title cellBox">
+                    <navigator url="" class="weui-cell weui-cell_access secMenu" hover-class="weui-cell_active">
+                        <view class="weui-cell__bd cellBD">洗大块</view>
+                        <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+                    </navigator>
+                    <navigator url="" class="weui-cell weui-cell_access secMenu" hover-class="weui-cell_active">
+                        <view class="weui-cell__bd cellBD">洗中块</view>
+                        <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+                    </navigator>
+                    <navigator url="" class="weui-cell weui-cell_access secMenu" hover-class="weui-cell_active">
+                        <view class="weui-cell__bd cellBD">洗小块</view>
+                        <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+                    </navigator>
+                </view>
+                <view class="firstLevelMenuList">洗精煤面</view>
+                <!-- 二级菜单 -->
+                <view class="weui-cells weui-cells_after-title cellBox">
+                    <navigator url="" class="weui-cell weui-cell_access secMenu" hover-class="weui-cell_active">
+                        <view class="weui-cell__bd cellBD">大块</view>
+                        <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+                    </navigator>
+                    <navigator url="" class="weui-cell weui-cell_access secMenu" hover-class="weui-cell_active">
+                        <view class="weui-cell__bd cellBD">中块</view>
+                        <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+                    </navigator>
+                    <navigator url="" class="weui-cell weui-cell_access secMenu" hover-class="weui-cell_active">
+                        <view class="weui-cell__bd cellBD">小块</view>
+                        <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+                    </navigator>
+                    <navigator url="" class="weui-cell weui-cell_access secMenu" hover-class="weui-cell_active">
+                        <view class="weui-cell__bd cellBD">面煤</view>
+                        <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+                    </navigator>
+                </view>
+                <view class="firstLevelMenuList">选精煤</view>
+                <!-- 二级菜单 -->
+                <view class="weui-cells weui-cells_after-title cellBox">
+                    <navigator url="" class="weui-cell weui-cell_access secMenu" hover-class="weui-cell_active">
+                        <view class="weui-cell__bd cellBD">大块</view>
+                        <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+                    </navigator>
+                    <navigator url="" class="weui-cell weui-cell_access secMenu" hover-class="weui-cell_active">
+                        <view class="weui-cell__bd cellBD">中块</view>
+                        <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+                    </navigator>
+                    <navigator url="" class="weui-cell weui-cell_access secMenu" hover-class="weui-cell_active">
+                        <view class="weui-cell__bd cellBD">小块</view>
+                        <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+                    </navigator>
+                    <navigator url="" class="weui-cell weui-cell_access secMenu" hover-class="weui-cell_active">
+                        <view class="weui-cell__bd cellBD">面煤</view>
+                        <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+                    </navigator>
+                </view>
+            </view>
+        </view>
+        <view class="productList ">
+            <view class="productListItem">
+                <image src="../../static/image/product.png" class=productListItemImg " mode="widthFix "></image>
+                <view class="ProTitle textStyle ">原煤</view>
+                <view class="ProTitle ProTitleDEt textStyle ">府谷县瑞丰煤矿</view>
+                <view class="bannerText ">广告广告广告广告广告广告</view>
+                <view class="productListItem_left textStyle ">
+                    <view class="portNum ">发热量高 5900</view>
+                    <view class="portNum ">发热量高 5900</view>
+                    <view class="portNum ">水分 15%</view>
+                </view>
+                <view class="productListItem_right textStyle ">
+                    <view class="portNum ">硫 0.2%</view>
+                    <view class="portNum ">灰分 10%</view>
+                    <view class="portNum ">挥发 6%</view>
+                </view>
+                <image src="../../static/image/product.png " class=productListItemPortImg" mode="widthFix"></image>
+            </view>
+            <view class="productListItem">
+                <image src="../../static/image/product.png" class=productListItemImg " mode="widthFix "></image>
+                <view class="ProTitle textStyle ">原煤</view>
+                <view class="ProTitle ProTitleDEt textStyle ">府谷县瑞丰煤矿</view>
+                <view class="bannerText ">广告广告广告广告广告广告</view>
+                <view class="productListItem_left textStyle ">
+                    <view class="portNum ">发热量高 5900</view>
+                    <view class="portNum ">发热量高 5900</view>
+                    <view class="portNum ">水分 15%</view>
+                </view>
+                <view class="productListItem_right textStyle ">
+                    <view class="portNum ">硫 0.2%</view>
+                    <view class="portNum ">灰分 10%</view>
+                    <view class="portNum ">挥发 6%</view>
+                </view>
+                <image src="../../static/image/product.png " class=productListItemPortImg" mode="widthFix"></image>
+            </view>
+        </view>
+    </view>
+</view>

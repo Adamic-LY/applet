@@ -1,0 +1,36 @@
+.serchBar_box_common {
+    width: 480rpx!important;
+    left: 150rpx!important;
+    top: 20rpx;
+}
+
+.searchBar_input_common {
+    width: 480rpx!important;
+}
+
+.icon_back_common {
+    top: 3rpx;
+}
+
+.icon_location_common {
+    left: 30rpx;
+}
+
+.icon {
+    position: absolute;
+    top: -3rpx;
+}
+
+.icon_search {
+    left: 10rpx;
+}
+
+.searchBarBack {
+    position: relative;
+    height: 60rxp;
+    line-height: 60rpx;
+}
+
+.locationCity {
+    margin-left: 70rpx;
+}

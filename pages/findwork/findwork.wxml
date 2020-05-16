@@ -1,0 +1,54 @@
+<!--pages/findwork/findwork.wxml-->
+<view class="findwork">
+  <view class="findwork-tabBar">
+    <findwork-nav></findwork-nav>
+  </view>
+  <view class="banners">
+    <view class="banner">
+      <view class="bannerCon" bindtap="gofindworkCargo">
+        <view class="bannerIcon"></view>
+        <view class="bannerName">找货</view>
+      </view>
+      <view class="bannerCon">
+        <view class="bannerIcon"></view>
+        <view class="bannerName">找货</view>
+      </view>
+      <view class="bannerCon">
+        <view class="bannerIcon"></view>
+        <view class="bannerName">找货</view>
+      </view>
+      <view class="bannerCon">
+        <view class="bannerIcon"></view>
+        <view class="bannerName">找货</view>
+      </view>
+      <view class="bannerCon">
+        <view class="bannerIcon"></view>
+        <view class="bannerName">找货</view>
+      </view>
+      <view class="bannerCon">
+        <view class="bannerIcon"></view>
+        <view class="bannerName">找货</view>
+      </view>
+      <view class="bannerCon">
+        <view class="bannerIcon"></view>
+        <view class="bannerName">找货</view>
+      </view>
+      <view class="bannerCon">
+        <view class="bannerIcon"></view>
+        <view class="bannerName">找货</view>
+      </view>
+      <view class="bannerCon">
+        <view class="bannerIcon"></view>
+        <view class="bannerName">找货</view>
+      </view>
+      <view class="bannerCon">
+        <view class="bannerIcon"></view>
+        <view class="bannerName">找货</view>
+      </view>
+    </view>
+  </view>
+  <view class="myMotorcade">郝琳车队</view>
+  <view class="published-btn">
+    <published-btn></published-btn>
+  </view>
+</view>

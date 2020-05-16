@@ -1,0 +1,27 @@
+<!--components/fixed-nav/fixed-nav.wxml-->
+<view>
+  <view class="nav">
+    <view class="nav-item" bindtap="goshouye">
+      <view class="star">★</view>
+      <view class="navname">首页</view>
+    </view>
+    <view class="nav-item" bindtap="">
+      <view class="star">★</view>
+      <view class="navname">通话记录</view>
+    </view>
+    <view class="nav-item" bindtap="">
+      <view class="round">
+        <view class="star">＋</view>
+      </view>
+      <view class="navname" id="fabu">发货</view>
+    </view>
+    <view class="nav-item" bindtap="">
+      <view class="star">★</view>
+      <view class="navname">订单</view>
+    </view>
+    <view class="nav-item" bindtap="">
+      <view class="star">★</view>
+      <view class="navname">我的</view>
+    </view>
+  </view>
+</view>

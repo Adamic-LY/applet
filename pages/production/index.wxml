@@ -1,0 +1,73 @@
+<view>
+    <view class="searchBarBox">
+        <search-bar></search-bar>
+    </view>
+    <view class="navBarBox">
+        <nav-bar></nav-bar>
+    </view>
+    <view class="tabBarBox">
+        <tab-bar></tab-bar>
+    </view>
+    <view class="production">
+        <view class="productionItem">
+            <view class="productionTitle">
+                <image class="headIcon" src="../../static/image/product.png"></image>
+                <text class="nicName">微信名（可以改昵称）</text>
+            </view>
+            <view class="productionPic">
+                <image class="productionPicture" src="../../static/image/product.png" mode="widthFix"></image>
+                <view class="operationBox">
+                    <operation-btn></operation-btn>
+                </view>
+            </view>
+            <view class="productionText">
+                <text>标题标题标题标题标题</text>
+            </view>
+        </view>
+        <view class="productionItem">
+            <view class="productionTitle">
+                <image class="headIcon" src="../../static/image/product.png"></image>
+                <text class="nicName">微信名（可以改昵称）</text>
+            </view>
+            <view class="productionPic">
+                <image class="productionPicture" src="../../static/image/product.png" mode="widthFix"></image>
+                <view class="operationBox">
+                    <operation-btn></operation-btn>
+                </view>
+            </view>
+            <view class="productionText">
+                <text>标题标题标题标题标题</text>
+            </view>
+        </view>
+        <view class="productionItem">
+            <view class="productionTitle">
+                <image class="headIcon" src="../../static/image/product.png"></image>
+                <text class="nicName">微信名（可以改昵称）</text>
+            </view>
+            <view class="productionPic">
+                <image class="productionPicture" src="../../static/image/product.png" mode="widthFix"></image>
+                <view class="operationBox">
+                    <operation-btn></operation-btn>
+                </view>
+            </view>
+            <view class="productionText">
+                <text>标题标题标题标题标题</text>
+            </view>
+        </view>
+        <view class="productionItem">
+            <view class="productionTitle">
+                <image class="headIcon" src="../../static/image/product.png"></image>
+                <text class="nicName">微信名（可以改昵称）</text>
+            </view>
+            <view class="productionPic">
+                <image class="productionPicture" src="../../static/image/product.png" mode="widthFix"></image>
+                <view class="operationBox">
+                    <operation-btn></operation-btn>
+                </view>
+            </view>
+            <view class="productionText">
+                <text>标题标题标题标题标题</text>
+            </view>
+        </view>
+    </view>
+</view>

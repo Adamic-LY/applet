@@ -1,0 +1,114 @@
+<!--pages/buynow/buynow.wxml-->
+<<<<<<< HEAD
+<view class="consigneeinfo">
+  <view class="consigneeinfo-icon"></view>
+  <view class="consigneerecevinginfo">
+    <view class="consigneepeople">
+      <view class="consigneepeople-name">梁女士</view>
+      <view class="consigneepeople-phone">18887777999</view>
+    </view>
+    <view class="receiveraddress">陕西省渭南市韩城市新城街道桢州大街十三支队景福苑</view>
+    <view class="receiverexplanation">收货不便时,可选择寄存</view>
+  </view>
+  <view class="consigneedetails">〉</view>
+</view>
+<view class="orderinfo">
+  <view class="orderinfo-image"></view>
+  <view class="orderinfo-companyname">万润达兰炭集团</view>
+  <view class="orderinfo-flex">
+    <view class="orderinfoproductimage"></view>
+    <view class="productinfo-flex">
+      <view class="productName">原煤</view>
+      <view class="productplace">府谷县瑞丰煤矿</view>
+      <view class="productPrice">¥ 480.00</view>
+      <view class="deliveryTime">发货时间:付款后七天内</view>
+    </view>
+=======
+<view>
+  <view class="consigneeinfo">
+    <view class="consigneeinfo-icon"></view>
+    <view class="consigneerecevinginfo">
+      <view class="consigneepeople">
+        <view class="consigneepeople-name">梁女士</view>
+        <view class="consigneepeople-phone">18887777999</view>
+      </view>
+      <view class="receiveraddress">陕西省渭南市韩城市新城街道桢州大街十三支队景福苑</view>
+      <view class="receiverexplanation">收货不便时,可选择寄存</view>
+    </view>
+    <view class="consigneedetails">〉</view>
+  </view>
+  <view class="orderinfo">
+    <view class="orderinfo-image">
+      <image src=""></image>
+    </view>
+    <view class="orderinfo-companyname">万润达兰炭集团</view>
+    <view class="orderinfo-flex">
+      <view class="orderinfoproductimage">
+        <image></image>
+      </view>
+      <view class="productinfo-flex">
+        <view class="productName">原煤</view>
+        <view class="productplace">府谷县瑞丰煤矿</view>
+        <view class="productPrice">¥ 480.00</view>
+        <view class="deliveryTime">发货时间:付款后七天内</view>
+      </view>
+    </view>
+    <view class="orderinfoDetails">
+      <view class="buynumber">
+        <view class="buynumberTxt">购买数量</view>
+        <view class="buynumberflex">
+          <view class="buynumberbtn" bindtap="{{buynumber>1?'reducebuynumber':' '}}">-</view>
+          <view class="buynumbernum">
+            <input type="number" value="{{buynumber}}" min="{{1}}" bindblur="getinputval">{{buynumber}}</input>
+          </view>
+          <view class="buynumberbtn" bindtap="addbuynumber">+</view>
+        </view>
+      </view>
+      <view style="height:30rpx;"></view>
+      <view class="buynumber">
+        <view class="txtsize">配送方式</view>
+        <view class="txtsize" style="color:grey;width:280rpx;textalign:left">普通配送</view>
+        <view class="txtsize">快递¥10.00〉</view>
+      </view>
+      <view class="buynumber">
+        <view class="txtsize">运费险</view>
+        <view class="txtsize" style="color:grey;width:280rpx;textalign:left">退换货可赔付十元</view>
+        <view class="txtsize">
+          <label class="radio">¥3.44</label>
+          <radio checked="{{ischecked}}"  bindtap="changechecked" class="buynumberradio"></radio>
+        </view>
+      </view>
+      <view class="buynumber">
+        <view class="txtsize">订单备注</view>
+        <input placeholder="选填，请先和厂家协调一致" style="color:grey;width:280rpx;textalign:left" style="width:280rpx;"></input>
+        <view class="txtsize">快递¥10.00〉</view>
+      </view>
+      <view style="height:30rpx"></view>
+      <view class="aggregate">
+        <view class="aggregateinline" style="color:gray">共1件</view>
+        <view class="aggregateinline">小计:</view>
+        <view class="aggregateinline" style="color:red">¥480.00</view>
+      </view>
+    </view>
+    <view style="height:20rpx;"></view>
+  </view>
+  <view class="payforanother">
+    <view class="payforanothertxt">
+      <icon style="display:inline-block"></icon>帮我付(朋友代付)
+    </view>
+    <view class="txtsize">〉</view>
+  </view>
+  <view class="anonymousPurchase">
+    <radio checked="{{ischecked1}}" bindtap="changechecked1" class="anonymousPurchaseRadio"></radio>
+    <label class="txtsize" style="color:grey">匿名购买</label>
+  </view>
+  <view class="submitcon">
+      <view class="aggregate">
+        <view class="aggregateinline" style="color:gray">共1件</view>
+        <view class="aggregateinline">合计:</view>
+        <view class="aggregateinline" style="color:red">¥480.00</view>
+      </view>
+      <view class="submitbtn">提交订单</view>
+>>>>>>> 5-15,立即购买页面
+  </view>
+</view>

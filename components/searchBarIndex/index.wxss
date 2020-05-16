@@ -1,0 +1,49 @@
+/* 顶部搜索 */
+
+.searchBar {
+    position: relative;
+    padding: 20rpx;
+    height: 100rpx;
+    width: 100%;
+    padding-left: 10rpx;
+    /* margin-bottom: 100rpx; */
+    box-sizing: border-box;
+    background-color: #eee;
+}
+
+.location {
+    position: absolute;
+    height: 60rpx;
+    line-height: 60rpx;
+}
+
+.searchBar>.location>text {
+    position: absolute;
+    width: 60rpx;
+    margin-left: 40rpx;
+    /* background-color: #000; */
+    font-size: 30rpx;
+    line-height: 60rpx;
+    /* text-align: center; */
+}
+
+.searchBar>.serchBar_box {
+    position: absolute;
+    height: 60rpx;
+    line-height: 60rpx;
+    width: 400rpx;
+    box-sizing: border-box;
+    left: 120rpx;
+}
+
+.searchBar>.serchBar_box>.searchBar_input {
+    position: absolute;
+    display: inline-block;
+    width: 540rpx;
+    background-color: #fff;
+    border-radius: 8rpx;
+    height: 60rpx;
+    padding-left: 60rpx;
+    box-sizing: border-box;
+    font-size: 30rpx;
+}

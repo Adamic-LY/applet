@@ -1,0 +1,40 @@
+/* components/fixed-nav/fixed-nav.wxss */
+.nav{
+  width: 750rpx;
+  height: 100rpx;
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  background: rgba(230, 230, 233, 0.4);
+  justify-content: space-around;
+  align-items: center;
+  box-sizing: border-box
+}
+.nav-item{
+  text-align: center;
+  font-size: 30rpx;
+  font-weight: bold;
+}
+.star{
+  font-size: 45rpx;
+  color: #919191
+}
+.navname{
+  position: relative;
+  bottom: 10rpx;
+}
+.round{
+  position: relative;
+  bottom: 30rpx;
+  width: 90rpx;
+  height: 90rpx;
+  border-radius: 50%;
+  background-color: black;
+  text-align: center;
+  line-height: 90rpx;
+  font-size: 40rpx
+}
+#fabu{
+  position: relative;
+  bottom: 20rpx
+}

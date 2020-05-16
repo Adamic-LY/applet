@@ -1,0 +1,24 @@
+<!--components/minicomyBar/minicomyBar.wxml-->
+<view class="companyBar">
+   <view class="companyBar-flex">
+     <view class="comflex-image">
+       <image src=""></image>
+     </view>
+     <view class="comflex-name">万润达兰炭集团有限公司</view>
+     <view class="comflex-attention">关注</view>
+   </view>
+   <view class="companyBar-flex">
+     <view class="comflex-input">
+       <input placeholder="输入产品搜索"></input>
+     </view>
+     <view class="comflex-service">联系客服</view>
+   </view>
+   <view class="companyBar-flex,flexAround">
+     <view class="comflex-navbar">销量</view>
+     <view class="comflex-navbar">新品</view>
+     <view class="comflex-navbar">价格</view>
+     <view class="comflex-navbar">全部分类</view>
+     <view class="comflex-navbar">筛选</view>
+   </view>
+</view>
+<!--components/minicomyBar/minicomyBar.wxml-->

@@ -1,0 +1,25 @@
+<view class="tab">
+    <view class="navbar">
+        <view class="navbar__item navbar__item_on">
+            精煤
+        </view>
+        <view class="navbar__item">
+            兰炭
+        </view>
+        <view class="navbar__item">
+            煤焦油
+        </view>
+        <view class="navbar__item">
+            金属镁
+        </view>
+        <view class="navbar__item">
+            无烟煤
+        </view>
+        <view class="navbar__item">
+            煤化工设备
+        </view>
+        <view class="navbar__item">
+            煤矿设备
+        </view>
+    </view>
+</view>
