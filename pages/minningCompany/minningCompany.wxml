@@ -3,10 +3,7 @@
   <view class="miniComy">
     <minicomy-bar></minicomy-bar>
   </view>
-<<<<<<< HEAD
-=======
   <view>
->>>>>>> 5-15,立即购买页面
   <view class="items" wx:for="{{itemList}}" wx:key="index">
     <view class="border"></view>
     <view class="flex">
@@ -48,8 +45,5 @@
       <view class="evaluate">98.7%好评</view>
     </view>
   </view>
-<<<<<<< HEAD
-=======
   </view>
->>>>>>> 5-15,立即购买页面
 </view>

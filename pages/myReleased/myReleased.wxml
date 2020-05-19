@@ -1,0 +1,33 @@
+<!--pages/myReleased/myReleased.wxml-->
+<view class="myReleased">
+  <view class="myReleasednavbar">
+    <nav-bar></nav-bar>
+  </view>
+  <view class="myReleaseditems">
+     <view class="myReleaseditem" wx:for="{{5}}" wx:key="index">
+        <view class="myRleaseditem-flex">
+          <view class="myReleaseditem-inmage">
+            <image src="../../static/image/product.png"></image>
+          </view>
+          <view class="myReleaseditem-txt">
+              <view class="Releasedaddress">
+                <view class="txt-product">原煤</view>
+                <view class="txt-company">府谷县瑞丰煤矿</view>
+              </view>
+              <view class="tex-price">480</view>
+              <view class="Releasedaddress">
+                <view class="txt-message">留言</view>
+                <view class="txt-browse">浏览66</view>
+              </view>
+          </view>
+        </view>
+        <view class="myReleaseditem-btns">
+           <view class="myReleaseditem-btn">预览</view>
+           <view class="myReleaseditem-btn">分享</view>
+           <view class="myReleaseditem-btn">降价</view>
+           <view class="myReleaseditem-btn">预览</view>
+           <view class="myReleaseditem-btn" id="nobackgroundcolor" style="color:black">●●●</view>
+        </view>
+     </view>
+  </view>
+</view>

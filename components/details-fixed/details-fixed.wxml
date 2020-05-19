@@ -1,8 +1,5 @@
 <!--components/details-fixed/details-fixed.wxml-->
-<<<<<<< HEAD
-=======
 <view class="detailsFixed">
->>>>>>> 5-15,立即购买页面
 <view class="details-fixed">
   <view class="details-txt" bindtap="showdirect">...</view>
 </view>
@@ -14,8 +11,5 @@
     <view class="direct-fun">首页</view>
     <view class="direct-fun">分享</view>
   </view>
-<<<<<<< HEAD
-=======
 </view>
->>>>>>> 5-15,立即购买页面
 </view>

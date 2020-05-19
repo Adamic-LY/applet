@@ -1,0 +1,16 @@
+<!--pages/mySell/mySell.wxml-->
+<view class="mySell">
+  <view class="mySell-navbar">
+    <nav-bar></nav-bar>
+  </view>
+  <view class="mySell-items">
+     <view class="mySell-item">
+        <view class="mySell-company">
+           <view class="companyProfile">
+             <image src="../../static/image/banner.png" ></image>
+           </view>
+           <view class="companyName">万润达兰炭集团</view>
+        </view>
+     </view>
+  </view>
+</view>

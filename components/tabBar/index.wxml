@@ -1,11 +1,12 @@
 <view class="tabbar">
+     
     <view class="page" data-weui-theme="{{theme}}">
         <view class="page__bd" style="height: 100%;">
             <view class="weui-tab">
              
                 <view class="weui-tabbar">
                 <navigator url="../../pages/index/index">
-                    <view class="weui-tabbar__item weui-bar__item_on">
+                    <view class="weui-tabbar__item weui-bar__item_on" id="1" bindtap="changeactiveindex" >
                         <view style="display: inline-block; position: relative;">
                             <image src="../../static/icon/icon_tabbar.png" alt class="weui-tabbar__icon"></image>
                             <!-- <text class="weui-badge" style="position: absolute; top: -2px; right: -13px;">8</text> -->
@@ -16,37 +17,37 @@
                     </view>
                     </navigator>
                     <navigator url="../../pages/productList/Index">
-                    <view class="weui-tabbar__item">
+                    <view class="weui-tabbar__item" id="2" bindtap="changeactiveindex" >
                         <image src="../../static/icon/icon_tabbar.png" alt class="weui-tabbar__icon"></image>
                         
-                        <view class="weui-tabbar__label tabbarLabel" bindtap="goproductList">产品分类</view>
+                        <view class="weui-tabbar__label tabbarLabel" bindtap="goproductList" style="color:{{activeindex=='2'?'red':''}}" >产品分类</view>
                         
                     </view>
                     </navigator>
                     <navigator url="../../pages/release/index">
-                    <view class="weui-tabbar__item">
+                    <view class="weui-tabbar__item" id="3" bindtap="changeactiveindex" >
                         <view style="display: inline-block; position: relative;" class="tabBar_release">
                             <mp-icon icon="add" color="black" size="{{25}}" class="icon_add"></mp-icon>
                             <!-- <image src="../../static/icon/icon_tabbar.png" alt class="weui-tabbar__icon"></image> -->
                             <!-- <text class="weui-badge weui-badge_dot" style="position: absolute; top: 0; right: -6px;"></text> -->
                         </view>
-                        <view class="weui-tabbar__label tabbarLabel">发布</view>
+                        <view class="weui-tabbar__label tabbarLabel" style="color:{{activeindex=='3'?'red':''}}" >发布</view>
                     </view>
                     </navigator>
                     <navigator url="../../pages/production/index">
-                    <view class="weui-tabbar__item">
+                    <view class="weui-tabbar__item" id="4" bindtap="changeactiveindex" >
                         <view style="display: inline-block; position: relative;">
                             <image src="../../static/icon/icon_tabbar.png" alt class="weui-tabbar__icon"></image>
                             <!-- <text class="weui-badge weui-badge_dot" style="position: absolute; top: 0; right: -6px;"></text> -->
                         </view>                   
-                        <view class="weui-tabbar__label tabbarLabel">产品介绍</view>
+                        <view class="weui-tabbar__label tabbarLabel" style="color:{{activeindex=='4'?'red':''}}" >产品介绍</view>
 
                     </view>
                     </navigator>
                     <navigator url="../../pages/releaseSupplier/index">
-                    <view class="weui-tabbar__item">
+                    <view class="weui-tabbar__item" id="5" bindtap="changeactiveindex">
                         <image src="../../static/icon/icon_tabbar.png" alt class="weui-tabbar__icon"></image>
-                        <view class="weui-tabbar__label tabbarLabel">企业中心</view>
+                        <view class="weui-tabbar__label tabbarLabel" style="color:{{activeindex=='5'?'red':''}}" >企业中心</view>
                     </view>
                     </navigator>
                 </view>

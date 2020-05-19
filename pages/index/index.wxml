@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-<!--index.wxml-->
-=======
  <!--index.wxml-->
->>>>>>> 5-15,立即购买页面
 <view>
     <view class="searchBarBox"><search-bar-home></search-bar-home></view>
     <view class="tabBarBox"><tab-bar></tab-bar></view>

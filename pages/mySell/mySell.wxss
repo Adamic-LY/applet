@@ -1,0 +1,19 @@
+/* pages/mySell/mySell.wxss */
+.mySell-navbar{
+  height: 100rpx;
+}
+.mySell-item{
+   width: 690rpx;
+  /* height: 400rpx; */
+  border: 1rpx solid black;
+  margin: 10rpx auto;
+}
+.mySell-company{
+  display: flex;
+  margin: 20rpx;
+}
+.companyProfile image{
+   width: 60rpx;
+   height: 60rpx;
+   border-radius: 50%
+}

@@ -260,21 +260,23 @@
 				},
 				{
 					"id": -1,
-<<<<<<< HEAD
-					"name": "精煤详情",
-					"pathName": "pages/plantdetails/plantdetails",
+					"name": "立即购买",
+					"pathName": "pages/buynow/buynow",
 					"query": "",
 					"scene": null
 				},
 				{
 					"id": -1,
-					"name": "立即购买",
-					"pathName": "pages/buynow/buynow",
-=======
-					"name": "立即购买",
-					"pathName": "pages/buynow/buynow",
+					"name": "我发布的",
+					"pathName": "pages/myReleased/myReleased",
 					"query": "",
->>>>>>> 5-15,立即购买页面
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "我卖出的",
+					"pathName": "pages/mySell/mySell",
+					"query": "",
 					"scene": null
 				}
 			]

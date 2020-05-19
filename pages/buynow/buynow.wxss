@@ -1,35 +1,4 @@
 /* pages/buynow/buynow.wxss */
-<<<<<<< HEAD
-page{
-  background-color: #f2f2f2
-}
-.consigneeinfo{
- width: 720rpx;
- background-color: white;
- border-radius: 10rpx;
- margin: 20rpx auto;
- display: flex;
- justify-content: space-around;
- align-items: center
-}
-.consigneeinfo-icon{
-  width: 50rpx;
-  height: 50rpx;
-  border: 1rpx solid black;
-  border-radius: 50%
-}
-.consigneerecevinginfo{
-  width: 500rpx;
-}
-.consigneepeople-name,.consigneepeople-phone{
-  display: inline-block
-}
-.consigneepeople-name{
-  font-size: 35rpx;
-  font-weight: bold
-}
-.consigneepeople-phone{
-=======
 
 page {
   background-color: #f2f2f2;
@@ -66,21 +35,10 @@ page {
 }
 
 .consigneepeople-phone {
->>>>>>> 5-15,立即购买页面
   font-size: 30rpx;
   color: grey;
   text-indent: 20rpx;
 }
-<<<<<<< HEAD
-.receiveraddress{
-  font-size: 30rpx;
-  font-weight: bold
-}
-.receiverexplanation{
-  font-size: 30rpx;
-  color: #ec612a
-}
-=======
 
 .receiveraddress {
   font-size: 30rpx;
@@ -261,4 +219,3 @@ page {
   text-align: center;
   margin-left: 10rpx;
 }
->>>>>>> 5-15,立即购买页面

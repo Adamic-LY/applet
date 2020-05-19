@@ -56,7 +56,9 @@
     "pages/jingmei-details/jingmei-details",
     "pages/minningCompany/minningCompany",
     "components/minicomyBar/minicomyBar",
-    "pages/buynow/buynow"
+    "pages/buynow/buynow",
+    "pages/myReleased/myReleased",
+    "pages/mySell/mySell"
   ],
   "window": {
     "backgroundTextStyle": "light",

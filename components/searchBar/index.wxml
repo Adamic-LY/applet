@@ -1,7 +1,7 @@
 <view class="searchBar">
     <view class="searchBarBack">
-        <mp-icon icon="location" color="black" size="{{20}}" class="icon icon_location icon_location_common"></mp-icon>
-        <text class="locationCity">榆林</text>
+        <text class="locationCity">西安</text>
+        <image src=""></image>
     </view>
     <view class="serchBar_box serchBar_box_common">
         <input type="search" placeholder="请输入公司或输入产品" class="searchBar_input searchBar_input_common"></input>

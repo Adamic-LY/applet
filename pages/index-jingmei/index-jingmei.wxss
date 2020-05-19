@@ -16,16 +16,11 @@
   width: 750rpx;
   height: 180rpx
 }
-<<<<<<< HEAD
-.items{
-  margin: 0 10rpx;
-=======
 /* pages/minningCompany/minningCompany.wxss */
 
 .items{
   margin: 0 10rpx;
   box-sizing: border-box
->>>>>>> 5-15,立即购买页面
 }
 .flex{
   display: flex
@@ -36,31 +31,19 @@
   background-color: #faf9f9
 }
 .image-mei image{
-<<<<<<< HEAD
-  width: 230rpx;
-=======
   width: 210rpx;
->>>>>>> 5-15,立即购买页面
   height: 250rpx;
 }
 .details{
   width: 370rpx;
-<<<<<<< HEAD
-  height: 230rpx;
-=======
   height: 250rpx;
->>>>>>> 5-15,立即购买页面
   margin-left: 10rpx;
 }
 .report{
   margin-left: 10rpx
 }
 .report image{
-<<<<<<< HEAD
-  width: 140rpx;
-=======
   width: 130rpx;
->>>>>>> 5-15,立即购买页面
   height: 220rpx
 }
 
@@ -68,10 +51,7 @@
   font-size: 30rpx;
   font-weight: bold;
   padding-right: 20rpx;
-<<<<<<< HEAD
-=======
   box-sizing: border-box
->>>>>>> 5-15,立即购买页面
 }
 .tagname{
   font-size: 30rpx;

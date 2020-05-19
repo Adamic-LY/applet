@@ -1,0 +1,55 @@
+/* pages/myReleased/myReleased.wxss */
+.myReleasednavbar{
+  height: 100rpx;
+}
+.myReleaseditem{
+  width: 690rpx;
+  /* height: 400rpx; */
+  border: 1rpx solid black;
+  margin: 10rpx auto;
+}
+.myRleaseditem-flex{
+  display: flex;
+  margin: 20rpx;
+}
+.myReleaseditem-inmage image{
+  height: 200rpx;
+  width: 200rpx;
+}
+.Releasedaddress{
+  display: flex;
+  margin-left: 60rpx;
+  font-size: 30rpx;
+  font-weight: bold;
+  margin-bottom: 30rpx;
+
+}
+.txt-company,.txt-browse{
+  margin-left: 20rpx;
+}
+.tex-price{
+  margin-left: 60rpx;
+  color: red;
+  margin-bottom: 30rpx;
+}
+.txt-message,.txt-browse{
+  font-size: 20rpx;
+  color: grey
+}
+.myReleaseditem-btns{
+  display: flex;
+  margin:20rpx;
+  justify-content: space-between 
+}
+.myReleaseditem-btn{
+  width: 100rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 25rpx
+}
+#nobackgroundcolor{
+  background-color: #ffffff
+}

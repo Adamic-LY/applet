@@ -1,29 +1,4 @@
 <!--pages/buynow/buynow.wxml-->
-<<<<<<< HEAD
-<view class="consigneeinfo">
-  <view class="consigneeinfo-icon"></view>
-  <view class="consigneerecevinginfo">
-    <view class="consigneepeople">
-      <view class="consigneepeople-name">梁女士</view>
-      <view class="consigneepeople-phone">18887777999</view>
-    </view>
-    <view class="receiveraddress">陕西省渭南市韩城市新城街道桢州大街十三支队景福苑</view>
-    <view class="receiverexplanation">收货不便时,可选择寄存</view>
-  </view>
-  <view class="consigneedetails">〉</view>
-</view>
-<view class="orderinfo">
-  <view class="orderinfo-image"></view>
-  <view class="orderinfo-companyname">万润达兰炭集团</view>
-  <view class="orderinfo-flex">
-    <view class="orderinfoproductimage"></view>
-    <view class="productinfo-flex">
-      <view class="productName">原煤</view>
-      <view class="productplace">府谷县瑞丰煤矿</view>
-      <view class="productPrice">¥ 480.00</view>
-      <view class="deliveryTime">发货时间:付款后七天内</view>
-    </view>
-=======
 <view>
   <view class="consigneeinfo">
     <view class="consigneeinfo-icon"></view>
@@ -109,6 +84,5 @@
         <view class="aggregateinline" style="color:red">¥480.00</view>
       </view>
       <view class="submitbtn">提交订单</view>
->>>>>>> 5-15,立即购买页面
   </view>
 </view>
