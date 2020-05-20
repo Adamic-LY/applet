@@ -278,6 +278,20 @@
 					"pathName": "pages/mySell/mySell",
 					"query": "",
 					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "采购商发布",
+					"pathName": "pages/releaseProcurer/releaseProcurer",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "产品介绍详情",
+					"pathName": "pages/productionDetail/productionDetail",
+					"query": "",
+					"scene": null
 				}
 			]
 		}

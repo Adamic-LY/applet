@@ -1,0 +1,87 @@
+/* pages/releaseProcurer/releaseProcurer.wxss */
+.myReleaseProcurer{
+  width: 700rpx;
+  height: 80rpx;
+  font-size: 30rpx;
+  color: white;
+  text-align: center;
+  line-height: 80rpx;
+  background-color: black;
+  margin: 20rpx auto;
+}
+.releaseProcurerattention{
+  width: 725rpx;
+  text-align: right;
+  font-size: 30rpx;
+  color: red;
+  font-weight: bold
+}
+.myReleaseProcurerProduct{
+  margin-left: 30rpx;
+  font-weight: bold
+}
+.myReleaseProcurerProductItems{
+   display: flex;
+   width: 700rpx;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   margin: 20rpx auto;
+}
+.myReleaseProcurerProductItem{
+  width: 150rpx;
+  height: 50rpx;
+  line-height: 50rpxx;
+  font-size: 30rpx;
+  color: black;
+  background-color: #e8e8e8;
+  text-align: center;
+  border-radius: 10rpx;
+}
+.myReleaseProcurerProductName{
+  margin-left: 30rpx;
+  margin-top: 60rpx;
+  font-size: 30rpx;
+}
+.myReleaseProcureruploadImages{
+   display: flex;
+   justify-content: space-around
+}
+.myReleaseProcureruploadImage{
+  width: 200rpx;
+  height: 200rpx;
+  font-size: 100rpx;
+  color: grey;
+  line-height: 200rpx;
+  text-align: center;
+  border: 1rpx solid black
+}
+.myReleaseProcureruploadTxt{
+  margin-left: 27rpx;
+  margin-top: 10rpx;
+  font-size: 20rpx;
+  font-weight: bold
+}
+.myReleaseProcurerProductNorm,.myReleaseProcurerProductIntroduce{
+  margin-left:30rpx;
+  margin-top: 30rpx;
+  font-weight: bold
+}
+.myReleaseProcurerProductNormFlex{
+   display: flex;
+   width: 400rpx;
+   /* justify-content: space-between; */
+   margin-left: 30rpx;
+   margin-top: 10rpx;
+}
+.myReleaseProcurerProductNormFlexItem{
+  font-size: 25rpx;
+  font-weight: bold
+}
+.myReleaseProcurerProductIntroduceTexrarea{
+  width: 700rpx;
+  height: 300rpx;
+  border: 1rpx solid black;
+  margin: 10rpx auto
+}
+
+  

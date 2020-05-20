@@ -4,13 +4,36 @@
     <nav-bar></nav-bar>
   </view>
   <view class="mySell-items">
-     <view class="mySell-item">
+    <view class="mySell-item" wx:for="{{3}}" wx:key="index">
+      <view class="mySell-flex">
         <view class="mySell-company">
-           <view class="companyProfile">
-             <image src="../../static/image/banner.png" ></image>
-           </view>
-           <view class="companyName">万润达兰炭集团</view>
+          <view class="companyProfile">
+            <image src="../../static/image/banner.png"></image>
+          </view>
+          <view class="companyName">万润达兰炭集团</view>
         </view>
-     </view>
+        <view class="mySell-status">等待卖家发货</view>
+      </view>
+      <view class="mySell-flex1">
+        <view class="mySellitem-image">
+          <image src="../../static/image/product.png"></image>
+        </view>
+        <view class="mySellitem-txt">
+          <view class="txt-product">原煤</view>
+          <view class="txt-company">府谷县瑞丰煤矿</view>
+          <view class="mySell-gathering">
+            <view class="mySell-gatheringtxt">实收款:</view>
+            <view class="mySell-gatheringprice">¥480000</view>
+          </view>
+        </view>
+      </view>
+      <view class="mySell-btns">
+         <view class="mySell-btn">联系卖家</view>
+         <view class="mySell-btnsflex">
+           <view class="mySell-btn">评价</view>
+           <view class="mySell-fun" style="color:black">●●●</view>
+         </view>
+      </view>
+    </view>
   </view>
 </view>

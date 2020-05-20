@@ -1,0 +1,36 @@
+<!--pages/productionDetail/productionDetail.wxml-->
+<view class="productionDetail">
+  <view class="productionDetailVideo">
+    <image src="../../static/image/product.png"></image>
+    <view class="productionDetailOperation">
+      <operation-btn></operation-btn>
+    </view>
+  </view>
+  <view class="productionDetailCompany">
+    <view class="productionDetailCompanyProfile">
+      <image src="../../static/image/banner.png"></image>
+    </view>
+    <view class="productionDetailCompanyName">万润达兰炭集团有限公司</view>
+  </view>
+  <view class="productionDetailCompanyCard">
+    <view class="productionDetailCompanyCardRed">
+      <view class="productionDetailCompanyCardProfile">
+        <image src="../../static/image/banner.png"></image>
+      </view>
+      <view class="productionDetailCompanyCardMessage">煤炭工业信息平台</view>
+      <view class="productionDetailCompanyCardBtns">
+         <view class="productionDetailCompanyCardBtn">打电话</view>
+         <view class="productionDetailCompanyCardBtn">加微信</view>
+      </view>
+    </view>
+    <view class="productionDetailCompanyCardwhite">
+      <view class="productionDetailCompanyCardWechat">
+         a1668899445455
+      </view>
+      <view class="productionDetailCompanyCardWecahtTxt">
+        我是煤炭工业信息平台，因为专业，所以卓越，精诚为您服务，如有需求，请随时与我联系
+      </view>
+      <view class="productionDetailCompanyCardShare">分享配文</view>
+    </view>
+  </view>
+</view>

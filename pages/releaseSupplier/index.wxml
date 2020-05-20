@@ -1,9 +1,5 @@
 <!-- 发布-供应商 -->
 <view class="releaseSupplier">
-    <view class="supplierTitleBox">
-        <text class="cancel">取消</text>
-        <text class="supplierTitle">供应商</text>
-    </view>
     <view class="publishedBtnBox">
         <published-btn></published-btn>
     </view>

@@ -1,0 +1,40 @@
+<!--pages/releaseProcurer/releaseProcurer.wxml-->
+<view class="releaseProcurer">
+  <view class="myReleaseProcurer">我发布的</view>
+  <view class="releaseProcurerattention">注意:发布时行业关键词识别</view>
+  <view class="myReleaseProcurerProduct">产品</view>
+  <view class="myReleaseProcurerProductItems">
+    <view class="myReleaseProcurerProductItem">煤炭</view>
+    <view class="myReleaseProcurerProductItem">兰炭</view>
+    <view class="myReleaseProcurerProductItem">无烟煤</view>
+    <view class="myReleaseProcurerProductItem">金属镁</view>
+  </view>
+  <view class="myReleaseProcurerProductItems">
+    <view class="myReleaseProcurerProductItem">煤焦油</view>
+    <view class="myReleaseProcurerProductItem">煤化工设备</view>
+    <view class="myReleaseProcurerProductItem">煤矿设备</view>
+    <view class="myReleaseProcurerProductItem">物流运输</view>
+  </view>
+  <input class="myReleaseProcurerProductName" placeholder="请输入产品名称"></input>
+  <view style="height:100rpx"></view>
+  <view class="myReleaseProcureruploadImages">
+    <view class="myReleaseProcureruploadImage">+</view>
+    <view class="myReleaseProcureruploadImage">+</view>
+    <view class="myReleaseProcureruploadImage">+</view>
+  </view>
+  <view class="myReleaseProcureruploadTxt">产品页面第一张展示图</view>
+  <view class="myReleaseProcurerProductNorm">指标</view>
+  <view class="myReleaseProcurerProductNormFlex">
+    <view class="myReleaseProcurerProductNormFlexItem" style="width:200rpx">发热量高5900</view>
+    <view class="myReleaseProcurerProductNormFlexItem" style="width:200rpx">硫0.2%</view>
+  </view>
+  <view class="myReleaseProcurerProductNormFlex">
+    <view class="myReleaseProcurerProductNormFlexItem" style="width:200rpx">发热量高5900</view>
+    <view class="myReleaseProcurerProductNormFlexItem" style="width:200rpx">硫0.2%</view>
+  </view><view class="myReleaseProcurerProductNormFlex">
+    <view class="myReleaseProcurerProductNormFlexItem" style="width:200rpx">发热量高5900</view>
+    <view class="myReleaseProcurerProductNormFlexItem" style="width:200rpx">硫0.2%</view>
+  </view>
+  <view class="myReleaseProcurerProductIntroduce">产品介绍</view>
+  <textarea class="myReleaseProcurerProductIntroduceTexrarea"></textarea>
+</view>

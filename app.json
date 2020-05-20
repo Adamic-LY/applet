@@ -58,7 +58,9 @@
     "components/minicomyBar/minicomyBar",
     "pages/buynow/buynow",
     "pages/myReleased/myReleased",
-    "pages/mySell/mySell"
+    "pages/mySell/mySell",
+    "pages/releaseProcurer/releaseProcurer",
+    "pages/productionDetail/productionDetail"
   ],
   "window": {
     "backgroundTextStyle": "light",

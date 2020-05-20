@@ -1,19 +1,108 @@
 /* pages/mySell/mySell.wxss */
-.mySell-navbar{
+
+.mySell-navbar {
   height: 100rpx;
 }
-.mySell-item{
-   width: 690rpx;
+
+.mySell-item {
+  width: 690rpx;
   /* height: 400rpx; */
   border: 1rpx solid black;
-  margin: 10rpx auto;
+  margin: 30rpx auto;
 }
-.mySell-company{
+
+.mySell-flex {
+  display: flex;
+  justify-content: space-between;
+  margin: 20rpx;
+}
+
+.mySell-company {
+  display: flex;
+}
+
+.companyProfile image {
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 50%;
+}
+
+.companyName {
+  margin-left: 10rpx;
+  font-size: 30rpx;
+  font-weight: bold;
+  line-height: 60rpx;
+}
+
+.mySell-status {
+  font-size: 30rpx;
+  font-weight: bold;
+  color: red;
+  line-height: 60rpx;
+  margin-right: 10rpx;
+}
+
+.mySellitem-image image{
+  height: 200rpx;
+  width: 200rpx;
+}
+.mySellitem-txt{
+  font-size: 30rpx;
+  font-weight: bold;
+  display: flex;
+  flex-wrap: wrap
+
+}
+.mySell-flex1{
   display: flex;
   margin: 20rpx;
 }
-.companyProfile image{
-   width: 60rpx;
-   height: 60rpx;
-   border-radius: 50%
+.txt-product{
+  margin-left: 40rpx;
+}
+.txt-company{
+  margin-left: 40rpx;
+}
+.mySell-gathering{
+  display: flex;
+  /* position: relative;
+  left: 400rpx;
+  bottom: 80rpx; */
+  margin-left: 40rpx;
+  position: relative;
+  top: 30rpx;
+}
+.mySell-gatheringtxt{
+  font-size: 28rpx;
+  font-weight: bold;
+  color: grey;
+  line-height: 55rpx;
+  margin-right: 20rpx;
+}
+.mySell-gatheringprice{
+  font-size: 35rpx;
+  color: red;
+  margin-left: 10rpx;
+}
+.mySell-btns{
+  display: flex;
+  margin:20rpx;
+  justify-content: space-between 
+}
+.mySell-btn{
+   width: 100rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 25rpx
+}
+.mySell-btnsflex{
+  display: flex
+}
+.mySell-fun{
+  line-height: 50rpx;
+  margin-left: 20rpx;
+  font-size: 30rpx
 }

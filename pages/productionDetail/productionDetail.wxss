@@ -1,0 +1,104 @@
+/* pages/productionDetail/productionDetail.wxss */
+
+.productionDetailVideo image {
+  height: 500rpx;
+  margin-bottom: 10rpx;
+}
+
+.productionDetailOperation {
+  position: fixed;
+  top: 60rpx;
+  right: 60rpx;
+}
+
+.productionDetailCompanyProfile image {
+  width: 60rpx;
+  height: 60rpx;
+}
+
+.productionDetailCompany {
+  display: flex;
+  margin-left: 20rpx;
+}
+
+.productionDetailCompanyName {
+  margin-left: 10rpx;
+  font-weight: bold;
+}
+
+.productionDetailCompanyCard {
+  width: 500rpx;
+  height: 450rpx;
+  /* border: 1rpx solid black; */
+  margin: 90rpx auto 0 auto;
+  border-radius: 10rpx;
+  box-shadow: 5rpx 10rpx 15rpx 10rpx gray;
+}
+
+.productionDetailCompanyCardProfile {
+  height: 60rpx;
+}
+
+.productionDetailCompanyCardProfile image {
+  width: 95rpx;
+  height: 95rpx;
+  border: 5rpx solid white;
+  border-radius: 50%;
+  position: relative;
+  top: -50rpx;
+  left: 200rpx;
+}
+.productionDetailCompanyCardwhite{
+  position: relative;
+  overflow: hidden
+}
+.productionDetailCompanyCardRed {
+  height: 250rpx;
+  background-color: #d34543;
+  border-radius: 10rpx 10rpx 0 0;
+}
+
+.productionDetailCompanyCardMessage {
+  font-size: 30rpx;
+  text-align: center;
+  color: white;
+}
+
+.productionDetailCompanyCardBtns {
+  margin-top: 40rpx;
+  display: flex;
+  justify-content: space-around;
+}
+.productionDetailCompanyCardBtn{
+  width: 140rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  text-align: center;
+  background-color: white;
+  font-size: 25rpx;
+  border-radius: 20rpx;
+}
+.productionDetailCompanyCardWechat{
+  margin-top: 20rpx;
+  margin-left: 40rpx;
+  font-size: 25rpx;
+  color: grey;
+}
+.productionDetailCompanyCardWecahtTxt{
+  margin: 20rpx auto 0 auto;
+  width: 420rpx;
+  font-size: 25rpx;
+  color: grey
+}
+.productionDetailCompanyCardShare{
+  width: 170rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  text-align: center;
+  border: 1rpx solid gray;
+  border-radius: 30rpx;
+  font-size: 25rpx;
+  position: absolute;
+  left: 360rpx;
+  bottom: 110rpx;
+}
