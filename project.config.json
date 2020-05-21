@@ -17,7 +17,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "2.11.0",
 	"appid": "wx6f7df1d30e83e01a",
-	"projectname": "applet-sld",
+	"projectname": "%E4%B8%87%E6%B6%A6%E8%BE%BE%E4%BF%A1%E6%81%AF%E5%B9%B3%E5%8F%B0",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},
@@ -291,6 +291,12 @@
 					"name": "产品介绍详情",
 					"pathName": "pages/productionDetail/productionDetail",
 					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "完善货主信息",
+					"pathName": "pages/ImproveOwnerInfo/improveOwnerInfo",
 					"scene": null
 				}
 			]

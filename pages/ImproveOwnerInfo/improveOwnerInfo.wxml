@@ -1,0 +1,40 @@
+<!--pages/ImproveOwnerInfo/improveOwnerInfo.wxml-->
+<view class="improveOwnerInfo">
+  <view class="improveOwnerInfoIdentity">
+    <view class="improveOwnerInfoIdentityMaterials">
+      <view class="improveOwnerInfoIdentityMaterialsTxt">
+        认证材料
+      </view>
+      <view class="improveOwnerInfoIdentityMaterialsBtns">
+        <view class="improveOwnerInfoIdentityMaterialsBtn">营业执照</view>
+        <view class="improveOwnerInfoIdentityMaterialsBtn">公司名片</view>
+      </view>
+    </view>
+    <view class="improveOwnerInfoIdentityMaterials1">
+      <view class="improveOwnerInfoIdentityMaterialsTxt">
+        我的身份
+      </view>
+      <view class="improveOwnerInfoIdentityMaterialsBtns">
+        <view class="improveOwnerInfoIdentityMaterialsBtn">我是法人</view>
+        <view class="improveOwnerInfoIdentityMaterialsBtn">我不是法人</view>
+      </view>
+    </view>
+  </view>
+  <view class="improveOwnerInfoAttention">为确保审核通过，请上传跟您法人身份一致的营业执照</view>
+  <view class="improveOwnerInfoLicense">
+    <view class="uploadLicense">+</view>
+    <view class="licenseExample">
+      <image src="../../static/image/product.png"></image>
+    </view>
+  </view>
+  <view class="companyDetail">
+    <view class="companyDetailFlex">
+      <view class="companyDetailTxt">公司名称</view>
+      <input class="companyDetailInp" placeholder="请输入公司名称"></input>
+    </view>
+     <view class="companyDetailFlex">
+      <view class="companyDetailTxt">公司地址</view>
+      <picker mode="region"></picker>
+    </view>
+  </view>
+</view>

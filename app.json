@@ -60,7 +60,8 @@
     "pages/myReleased/myReleased",
     "pages/mySell/mySell",
     "pages/releaseProcurer/releaseProcurer",
-    "pages/productionDetail/productionDetail"
+    "pages/productionDetail/productionDetail",
+    "pages/ImproveOwnerInfo/improveOwnerInfo"
   ],
   "window": {
     "backgroundTextStyle": "light",
