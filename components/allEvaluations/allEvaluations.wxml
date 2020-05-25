@@ -1,0 +1,24 @@
+<!--components/allEvaluations/allEvaluations.wxml-->
+<view class="allEvaluations">
+  <view class="allEvaluationsFlex">
+    <view class="iconTxt">
+      <view class="iconTxtIcon">
+        <icon></icon>
+      </view>
+      <view class="iconTxtTxt">矿企</view>
+    </view>
+      <view class="iconTxt">
+      <view class="iconTxtIcon">
+        <icon></icon>
+      </view>
+      <view class="iconTxtTxt">客服</view>
+    </view>  <view class="iconTxt">
+      <view class="iconTxtIcon">
+        <icon></icon>
+      </view>
+      <view class="iconTxtTxt">收藏</view>
+    </view>
+    <view class="btn1">立即购买</view>
+    <view class="btn2">联系物流</view>
+  </view>
+</view>

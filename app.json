@@ -61,7 +61,12 @@
     "pages/mySell/mySell",
     "pages/releaseProcurer/releaseProcurer",
     "pages/productionDetail/productionDetail",
-    "pages/ImproveOwnerInfo/improveOwnerInfo"
+    "pages/ImproveOwnerInfo/improveOwnerInfo",
+    "pages/jmProductEvaluation/jmProductEvaluation",
+    "components/allEvaluations/allEvaluations",
+    "pages/similarProduct/similarProduct",
+    "pages/owenrPublishingEditor/owenrPublishingEditor",
+    "pages/driverPublishing/driverPublishing"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -85,7 +90,8 @@
     "fixed-nav": "components/fixed-nav/fixed-nav",
     "findwork-nav": "components/findwork-nav/findwork-nav",
     "details-fixed": "components/details-fixed/details-fixed",
-    "minicomy-bar": "components/minicomyBar/minicomyBar"
+    "minicomy-bar": "components/minicomyBar/minicomyBar",
+    "all-evaluations": "components/allEvaluations/allEvaluations"
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"

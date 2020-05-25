@@ -1,0 +1,35 @@
+/* components/allEvaluations/allEvaluations.wxss */
+.allEvaluationsFlex{
+  display: flex;
+  justify-content: space-around;
+  align-items: center
+}
+.iconTxt{
+  text-align: center;
+}
+.iconTxtIcon{
+  width: 60rpx;
+  height: 60rpx;
+  border: 1rpx solid black
+}
+.iconTxtTxt{
+  font-size: 30rpx;
+  font-weight: bold
+}
+.btn1{
+  width: 160rpx;
+  height: 80rpx;
+  font-size: 30rpx;
+  text-align: center;
+  background-color: orangered;
+  line-height: 80rpx
+
+}
+.btn2{
+  width: 160rpx;
+  height: 80rpx;
+  font-size: 30rpx;
+  text-align: center;
+  background-color: orange;
+  line-height: 80rpx
+}

@@ -1,0 +1,58 @@
+<!--pages/jmProductEvaluation/jmProductEvaluation.wxml-->
+<view>
+  <view class="jmProductEvaluationTarbar">
+    <all-evaluations></all-evaluations>
+  </view>
+  <view class="jmProductEvaluation">
+    <view class="jmProductEvaluationNav">
+      <view class="jmProductEvaluationNavItem">全部</view>
+      <view class="jmProductEvaluationNavItem">最新</view>
+      <view class="jmProductEvaluationNavItem">好评</view>
+      <view class="jmProductEvaluationNavItem">中评</view>
+      <view class="jmProductEvaluationNavItem">差评</view>
+    </view>
+    <view class="jmProductEvaluationNav">
+      <view class="jmProductEvaluationNavItem">有图</view>
+      <view class="jmProductEvaluationNavItem">追加</view>
+    </view>
+    <view class="evaluationDetails" wx:for="{{3}}" wx:key="index">
+      <view class="companyDetails">
+        <view class="companyImage">
+          <image src="../../static/image/banner.png"></image>
+        </view>
+        <view class="companyDetailsTxt">
+          <view class="companyName">万润达兰炭集团</view>
+          <view class="evaluationTime">2020-04-04</view>
+        </view>
+      </view>
+      <view class="evaluationDetailsTxt">煤炭质量非常好，非常满意！</view>
+      <view class="companyDetailsImageBox">
+        <view class="companyDetailsImage">
+          <image src="../../static/image/product.png"></image>
+        </view>
+        <view class="companyDetailsImage">
+          <image src="../../static/image/product.png"></image>
+        </view>
+        <view class="companyDetailsImage">
+          <image src="../../static/image/product.png"></image>
+        </view>
+        <view class="companyDetailsImage">
+          <image src="../../static/image/product.png"></image>
+        </view>
+        <view class="companyDetailsImage">
+          <image src="../../static/image/product.png"></image>
+        </view>
+      </view>
+      <view class="Commentsonthethumbup">
+        <view class="CommentsonthethumbupTxt">
+          <icon></icon>
+          <view class="comment">评论</view>
+        </view>
+        <view class="CommentsonthethumbupTxt">
+          <icon></icon>
+          <view class="giveLike">点赞</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

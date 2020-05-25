@@ -1,0 +1,31 @@
+<!--pages/driverPublishing/driverPublishing.wxml-->
+<!--pages/driverPublishingEditor/driverPublishingEditor.wxml-->
+<view class="driverPublishingEditor">
+  <view class="handlingAddress">
+    <view class="loadDetail">
+      <view class="loadIcon">装</view>
+      <view class="txtChiose">
+        <view class="txtgrey">城市/区域</view>
+        <view class="txtgrey">选填,请输入详细地址</view>
+      </view>
+    </view>
+    <view class="unloadDetail">
+      <view class="unloadIcon">卸</view>
+      <view class="txtChiose">
+        <view class="txtgrey">城市/区域</view>
+        <view class="txtgrey">选填,请输入详细地址</view>
+      </view>
+    </view>
+  </view>
+  <view style="height:40rpx;"></view>
+  <view class="handlingAddress">
+    <view style="height:40rpx;"></view>
+    <view class="itemFlex">
+      <view class="itemTitle">车型车长</view>
+      <view class="requireMessage">必填,请选择车型车长</view>
+      <view class="arrows">〉</view>
+    </view>
+    <view style="height:40rpx;"></view>
+  </view>
+  <view class="shipmentsBtn">发布</view>
+</view>

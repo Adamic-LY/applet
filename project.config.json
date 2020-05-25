@@ -297,6 +297,42 @@
 					"id": -1,
 					"name": "完善货主信息",
 					"pathName": "pages/ImproveOwnerInfo/improveOwnerInfo",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "精煤产品评价",
+					"pathName": "pages/jmProductEvaluation/jmProductEvaluation",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "所有评价tarbar",
+					"pathName": "components/allEvaluations/allEvaluations",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "相似产品",
+					"pathName": "pages/similarProduct/similarProduct",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 39,
+					"name": "货主发布货源",
+					"pathName": "pages/owenrPublishingEditor/owenrPublishingEditor",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "司机发布",
+					"pathName": "pages/driverPublishing/driverPublishing",
+					"query": "",
 					"scene": null
 				}
 			]

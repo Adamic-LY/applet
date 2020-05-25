@@ -1,0 +1,45 @@
+<!--pages/similarProduct/similarProduct.wxml-->
+<view class="similarProduct">
+ <view class="items" wx:for="{{5}}" wx:key="index">
+    <view class="border"></view>
+    <view class="flex">
+      <view class="image-mei">
+        <image src="../../static/image/banner.png"></image>
+      </view>
+      <view class="details">
+        <view class="productarea">
+          <text class="tag">原煤</text>
+          <text class="tagname">府谷县瑞丰露天煤矿</text>
+          <text class="visited">浏览36</text>
+        </view>
+        <view class="productprice">
+          <view class="price">含税340元/吨</view>
+          <view class="discounts">量大优惠</view>
+        </view>
+        <view class="referral">
+          <view class="referral-txt">优质原煤</view>
+          <view class="referral-txt">厂家直销</view>
+        </view>
+        <view class="elements">
+          <view class="float-left">
+            <view>低位发热量6230</view>
+            <view>高位发热量7136</view>
+            <view>水分15%</view>
+          </view>
+          <view class="float-right">
+            <view>硫0.2%</view>
+            <view>灰分10%</view>
+            <view>挥发6%</view>
+          </view>
+        </view>
+      </view>
+      <view class="report">
+        <image src="../../static/image/product.png"></image>
+      </view>
+    </view>
+    <view class="productevaluate">
+      <view class="evaluate">30000条评价</view>
+      <view class="evaluate">98.7%好评</view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,68 @@
+/* pages/driverPublishingEditor/driverPublishingEditor.wxss */
+.handlingAddress{
+  margin: 20rpx auto;
+  width: 700rpx;
+  border: 1rpx solid grey;
+  border-radius: 10rpx;
+}
+.loadDetail,.unloadDetail{
+  display: flex;
+  align-items: center;
+  margin: 20rpx 0 0 30rpx;
+}
+.txtChiose{
+  margin-left: 30rpx;
+}
+.loadIcon,.unloadIcon{
+  width: 40rpx;
+  height: 40rpx;
+  border: 2rpx solid grey;
+  font-size: 30rpx;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  line-height: 40rpx;
+}
+.loadIcon{
+  background-color: blue;
+}
+.unloadIcon{
+  background-color: red;
+}
+.txtgrey{
+  font-size: 30rpx;
+  font-weight: bold;
+  color: gray;
+  margin-bottom: 20rpx;
+}
+.itemFlex{
+  display: flex;
+  justify-content: space-around;
+  margin:20rpx 0 20rpx 0;
+}
+.itemTitle{
+  font-size: 35rpx;
+  font-weight: bold
+}
+.requireMessage,.handTime{
+  width: 350rpx;
+  font-size: 35rpx;
+  color: gray;
+  font-weight: bold
+}
+.arrows{
+  font-weight: bold;
+  color: gray;
+}
+.shipmentsBtn{
+  font-size: 35rpx;
+  color: white;
+  font-weight: bold;
+  width: 750rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  text-align: center;
+  background-color: black;
+  position: fixed;
+  bottom: 0
+}
