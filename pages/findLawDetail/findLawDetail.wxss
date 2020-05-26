@@ -1,0 +1,159 @@
+/* pages/findLawDetail/findLawDetail.wxss */
+.cityName{
+  margin: 20rpx 0 20rpx 20rpx;
+  font-size: 40rpx;
+  font-weight: bold
+}
+.distanceBox{
+  margin-left: 20rpx;
+  display: flex;
+  margin-bottom: 20rpx;
+}
+.distance{
+  font-size: 35rpx;
+}
+.lookMap{
+  font-size: 35rpx;
+  margin-left: 20rpx;
+  color: blue;
+}
+.jiange{
+  background-color: #f2f2f2
+}
+.carLawInfo{
+  margin-left: 20rpx;
+  margin-top: 20rpx;
+}
+.carLawInfoTitle{
+  font-size: 35rpx;
+  font-weight: bold;
+  margin-bottom: 20rpx;
+}
+.carLawInfoFlex{
+  display: flex;
+  margin-bottom: 15rpx;
+}
+.txtGray{
+  width: 200rpx;
+  font-size: 30rpx;
+  color: gray
+}
+.grayInfo{
+  font-size: 30rpx;
+  width: 510rpx
+}
+.handlingInfoTitleBox{
+  display: flex;
+  margin-top: 10rpx;
+  margin-left: 20rpx;
+}
+.handlingTitle{
+  font-size: 35rpx;
+  font-weight: bold
+}
+.handlingStyle{
+  font-size: 35rpx;
+  color: grey;
+  font-weight: bold;
+  margin-left: 20rpx
+}
+.deliverDistance{
+  width: 430rpx;
+  text-align: right;
+  font-size: 35rpx;
+}
+.handlingFlex{
+  display: flex;
+  margin-left: 20rpx;
+  align-items: center
+}
+.handlingTxtGray{
+  font-size: 30rpx;
+  color: gray;
+  margin-left: 20rpx;
+}
+.txtIcon{
+  width: 35rpx;
+  height: 35rpx;
+  background-color: blue;
+  border-radius: 5rpx;
+  font-size: 20rpx;
+  line-height: 35rpx;
+  color: white;
+  text-align: center;
+}
+.handlingTxtnNormal{
+  font-size: 35rpx;
+  margin-left: 20rpx;
+  margin-bottom: 10rpx
+}
+.txtIconRed{
+   width: 35rpx;
+  height: 35rpx;
+  background-color: orangered;
+  border-radius: 5rpx;
+  font-size: 20rpx;
+  line-height: 35rpx;
+  color: white;
+  text-align: center;
+}
+.owenrImage{
+  width: 130rpx;
+  height: 130rpx;
+}
+.owenrImage image{
+  width: 130rpx;
+  height: 130rpx;
+  border-radius: 15rpx;
+}
+.carOwnerInfoFlex{
+  display: flex;
+  margin-top: 20rpx;
+  margin-left: 20rpx;
+}
+.ownerInfoFlex{
+  width: 580rpx;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20rpx;
+}
+.ownerName{
+  font-size: 35rpx;
+  font-weight: bold
+}
+.lookDetail{
+  font-size: 35rpx;
+  color: gray
+}
+.evaluateTime{
+  margin-left: 20rpx;
+  font-size: 35rpx;
+  color: gray
+}
+.fixedBtns{
+  width: 100vw;
+  height: 100rpx;
+  display: flex;
+  position: fixed;
+  bottom: 0
+}
+.fixedBtnBlack{
+  width: 50vw;
+  height: 100rpx;
+  background-color: black;
+  font-size: 30rpx;
+  line-height: 100rpx;
+  text-align: center;
+  color: white;
+  border-right: 1rpx solid white
+}
+.fixedBtnOrange{
+    width: 50vw;
+  height: 100rpx;
+  background-color: orangered;
+  font-size: 30rpx;
+  line-height: 100rpx;
+  text-align: center;
+  color: white;
+  border-left: 1rpx solid white
+}

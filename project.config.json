@@ -9,10 +9,19 @@
 		"postcss": true,
 		"minified": true,
 		"newFeature": true,
-		"autoAudits": false,
 		"coverView": true,
+		"autoAudits": false,
 		"showShadowRootInWxmlPanel": true,
-		"scopeDataCheck": false
+		"scopeDataCheck": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		},
+		"useCompilerModule": false
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.11.0",
@@ -333,6 +342,19 @@
 					"name": "司机发布",
 					"pathName": "pages/driverPublishing/driverPublishing",
 					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "找货详情",
+					"pathName": "pages/findLawDetail/findLawDetail",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "支付定金(物流)",
+					"pathName": "pages/payEarnest/payEarnest",
 					"scene": null
 				}
 			]

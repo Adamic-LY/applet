@@ -1,0 +1,68 @@
+<!--pages/findLawDetail/findLawDetail.wxml-->
+<view class="findLawDetail">
+  <view class="routebackAndForth">
+    <view class="cityName">铜川 耀州 → 保山 隆阳</view>
+    <view class="distanceBox">
+      <view class="distance">预估距离约2,047.8km</view>
+      <view class="lookMap">查看地图</view>
+    </view>
+  </view>
+  <view class="jiange" style="height:20rpx"></view>
+  <view class="carLawInfo">
+    <view class="carLawInfoTitle">车货信息</view>
+    <view class="carLawInfoFlex">
+      <view class="txtGray">车辆</view>
+      <view class="grayInfo">整车 6.8/13米 平板/高低板</view>
+    </view>
+    <view class="carLawInfoFlex">
+      <view class="txtGray">货物</view>
+      <view class="grayInfo">化工，300吨</view>
+    </view>
+    <view class="carLawInfoFlex">
+      <view class="txtGray">特殊要求</view>
+      <view class="grayInfo">〈到付〉,〈三不超〉,〈全部现金〉,〈高价急走〉,散装(定金请优先通过平台支付)</view>
+    </view>
+  </view>
+  <view class="jiange" style="height:20rpx"></view>
+  <view class="handlingInfo">
+    <view class="handlingInfoTitleBox">
+      <view class="handlingTitle">装卸信息</view>
+      <view class="handlingStyle">一装一卸</view>
+      <view class="deliverDistance">距发货地约82.3km</view>
+    </view>
+    <view class="handlingFlex">
+      <mp-icon icon="time" type="field" size="{{15}}" color="gray"></mp-icon>
+      <view class="handlingTxtGray">今天或明天 全天0:00-24:00点可装</view>
+    </view>
+    <view class="handlingFlex">
+      <view class="txtIcon">装</view>
+      <view class="handlingTxtnNormal">陕西省铜川市耀州</view>
+    </view>
+    <view class="handlingFlex">
+      <view class="txtIconRed">卸</view>
+      <view class="handlingTxtnNormal">云南省保山市隆阳区</view>
+    </view>
+  </view>
+  <view class="jiange" style="height:30rpx;"></view>
+  <view class="carOwnerInfo">
+    <view class="carOwnerInfoFlex">
+      <view class="owenrImage">
+        <image src="../../static/image/banner.png"></image>
+      </view>
+      <view class="rightBox">
+        <view class="ownerInfoFlex">
+          <view class="ownerName">罗涛</view>
+          <view class="lookDetail">查看资料〉</view>
+        </view>
+        <view class="evaluateTime">评价少于3条</view>
+        <view class="evaluateTime">交易2 发货数158</view>
+        <view class="evaluateTime" style="color:black">四川维恩物资有限公司</view>
+      </view>
+    </view>
+  </view>
+  <view class="fixedBtns">
+    <view class="fixedBtnBlack">电话咨询</view>
+    <view class="fixedBtnOrange">支付定金</view>
+  </view>
+  <view class="jiange" style="height:80rpx"></view>
+</view>
