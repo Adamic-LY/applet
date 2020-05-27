@@ -1,1 +1,126 @@
 /* pages/payEarnest/payEarnest.wxss */
+page{
+    background-color: #f2f2f2;
+}
+.details{
+  width: 100vw;
+  background-color: white;
+  padding-top: 20rpx;
+  box-sizing: border-box;
+  padding-left: 20rpx;
+}
+.address{
+    margin-top: 20rpx;
+}
+.detailsFlex{
+   display: flex;
+   margin-top: 20rpx;
+   flex-wrap: nowrap;
+}
+.load{
+    font-size: 30rpx;
+    color: tomato;
+}
+.loadtime{
+    font-size: 30rpx;
+    margin-left: 30rpx;
+}
+.carInfo{
+    width: 150rpx;
+    text-align: left;
+    font-size: 30rpx;
+    color: gray;
+}
+.specialTxt{
+    font-size: 30rpx;
+    width: 500rpx;
+}
+.fold{
+    text-align: center;
+    font-size: 30rpx;
+    color: gray;
+    margin-top: 30rpx;
+}
+.cost{
+    margin: 20rpx auto;
+    background-color: white;
+    font-size: 35rpx;
+    padding: 20rpx;
+    box-sizing: border-box;
+}
+.messageCost{
+    display: flex;
+    justify-content: space-between;
+}
+.messageNum{
+    color: orange;
+}
+.discounts{
+    font-size: 30rpx;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    margin-bottom: 20rpx;
+    padding: 10rpx;
+}
+.discountsTxt{
+ font-size: 35rpx;
+ font-weight: bold;
+ height: 50rpx;
+ line-height: 50rpx;
+}
+.discountsTxtExplain{
+    margin-left: 20rpx;
+    font-size: 30rpx;
+    line-height: 50rpx;
+    height: 50rpx;
+}
+.lookMore{
+    margin-left: 20rpx;
+    font-size: 30rpx;
+    line-height: 50rpx;
+    height: 50rpx;
+    color: blue;
+}
+.right{
+    height: 50rpx;
+    line-height: 50rpx;
+    
+}
+.notice{
+    width: 730rpx;
+    font-size: 25rpx;
+    font-weight: bold;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.noticeFlex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footBtns{
+    position: fixed;
+    bottom: 0;
+    height: 100rpx;
+    width: 100vw;
+    display: flex;
+    line-height: 100rpx;
+}
+.btnWhite{
+    display: flex;
+    width: 50vw;
+    background-color: white;
+    text-align: center;
+}
+.btnBlack{
+    text-align: center;
+    width: 50vw;
+    background-color: black;
+    color: white;
+    font-size: 35rpx;
+}
+.radio{
+    transform: scale(0.6);
+}

@@ -1,6 +1,124 @@
 <!--pages/payEarnest/payEarnest.wxml-->
 <view class="payEarnest">
-  <view class="">
-      
-  </view>
+    <view class="details">
+        <view class="address">
+            铜川市耀州区→保山市隆阳区
+        </view>
+        <view class="detailsFlex">
+            <view class="load">
+                装
+            </view>
+            <view class="loadtime">
+                四月30日0::00点前
+            </view>
+        </view>
+        <view class="detailsFlex">
+            <view class="load" style="color: white;">
+                装
+            </view>
+            <view class="loadtime" style="color: gray;">
+                铜川市耀州区
+            </view>
+        </view>
+        <view class="detailsFlex">
+            <view class="load" style="color: turquoise;">
+                卸
+            </view>
+            <view class="loadtime" style="color: gray;">
+                保山市隆阳区
+            </view>
+        </view>
+        <view class="detailsFlex">
+            <view class="carInfo">
+                车辆
+            </view>
+            <view class="loadtime" style="color: gray;margin: 0;">
+                6.8米,13米 平板,高低板
+            </view>
+        </view>
+        <view class="detailsFlex">
+            <view class="carInfo">
+                货物
+            </view>
+            <view class="loadtime" style="color: gray; margin: 0;">
+                化工产品,总重100吨
+            </view>
+        </view>
+        <view class="detailsFlex">
+            <view class="carInfo">
+                特殊要求
+            </view>
+            <view class="specialTxt" style="color: gray;">
+                到付、三不超、须雨布、全部现金、高价急走
+            </view>
+        </view>
+        <view class="fold">
+            收起详情∧
+        </view>
+        <view style="height: 20rpx;">
+
+        </view>
+    </view>
+    <view class="cost">
+        <view class="messageCost">
+            <view class="messageTxt">
+                信息费
+            </view>
+            <view class="messageNum">
+                ¥200.00
+            </view>
+        </view>
+        <view class="messageCost">
+            <view class="messageTxt">
+                应收运费
+            </view>
+            <view class="messageNum">
+                ¥2000.00
+            </view>
+        </view>
+    </view>
+    <view class="discounts">
+        <radio class="radio"></radio>
+        <view style="display: flex; width: 600rpx;text-align: left;">
+            <view class="discountsTxt">
+                优惠券
+            </view>
+            <view class="discountsTxtExplain">
+                暂无可用优惠券
+            </view>
+            <view class="lookMore">
+                更多〉
+            </view>
+        </view>
+        <view class="messageNum right">
+            -¥0
+        </view>
+    </view>
+    <view style="height: 20rpx;">
+
+    </view>
+    <view class="notice">
+        <radio class="radio">
+        </radio>
+        <view class="noticeFlex">
+            确认支付即视为您已阅读并同意
+            <view style="color: blue;">
+                《货物运输协议》
+            </view>
+            所有内容
+        </view>
+    </view>
+    <view class="footBtns">
+        <view class="btnWhite">
+            <view style="color: gray;font-size: 25rpx;margin-left: 30rpx;">
+                仍需支付
+            </view>
+            <view style="font-size: 35rpx;color: orange;font-weight: bold;">
+                200元
+            </view>
+        </view>
+        <view class="btnBlack">
+            确认支付
+        </view>
+    </view>
 </view>
