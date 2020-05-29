@@ -1,3 +1,10 @@
+.tabBox {
+    width: 100vw;
+    height: 100rpx;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .navbar {
     width: 100%;
@@ -12,13 +19,26 @@
 
 .navbar__item {
     padding: 0 40rpx;
-    font-size: 30rpx;
+    font-size: 24rpx;
     text-align: center;
     position: relative;
     display: inline-block;
 }
 
 .navbar__item_on {
+    padding: 0 40rpx;
+    font-size: 24rpx;
+    text-align: center;
+    position: relative;
+    display: inline-block;
     font-weight: bold;
-    color: aqua;
+    color: #e93928;
+}
+
+.xiahuaxian {
+    width: 25rpx;
+    margin: 0 auto;
+    border-bottom: 4rpx solid #e93928;
+    position: relative;
+    bottom: 20rpx;
 }

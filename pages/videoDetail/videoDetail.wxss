@@ -1,16 +1,5 @@
-/* pages/swiper-jingmei/swiper-jingmei.wxss */
-.swiperSearchbarBox{
-    position: fixed;
-    top: 0;
-    z-index: 999;
-}
-.swiperNavbar{
-    height: 100rpx;
-    background-color: white;
-    position: fixed;
-    top: 100rpx;
-    z-index: 999;
-}
+/* pages/videoDetail/videoDetail.wxss */
+
 .jiange {
     height: 14rpx;
     background-color: #f2f2f2;
@@ -53,6 +42,7 @@
     width: 679rpx;
     font-size: 28rpx;
     color: #666666;
+    margin-top: 34rpx;
 }
 
 .videoBox {
@@ -86,4 +76,11 @@
     width: 30rpx;
     height: 27rpx;
     margin-right: 11rpx;
+}
+
+.videoDetailsTxt {
+    width: 700rpx;
+    margin: 0 auto;
+    font-size: 26rpx;
+    color: #000000;
 }

@@ -1,0 +1,51 @@
+<!--pages/videoDetail/videoDetail.wxml-->
+<view class="videoDetails">
+    <view class="jiange"></view>
+    <view class="videoDetailsNav">
+        <nav-bar></nav-bar>
+    </view>
+    <view class="jiange"></view>
+    <view class="companyVideo">
+        <view class="videoBox">
+            <video class="" src="" initial-time="0" autoplay="false" loop="false" muted="false" direction="0" bindplay="" bindpause="" bindended="" bindtimeupdate="" bindwaiting="" binderror="">
+            </video>
+        </view>
+        <view class="videoTxt">
+            公司煤炭储量货源充足,进货渠道多样,与榆林神木煤炭内蒙煤矿有着长期合作的关系
+        </view>
+        <view class="xiahuxian" style="border: 1rpx solid #f2f2f2;margin: 23rpx auto;"></view>
+        <view class="videoBtns">
+            <view class="videoBtn">
+                <image class="" src="../../static/icon/dianzan.png" />
+                <view>
+                    50
+                </view>
+            </view>
+            <view class="videoBtn">
+                <image class="" src="../../static/icon/pinglun.png" />
+                <view>
+                    评论
+                </view>
+            </view>
+            <view class="videoBtn">
+                <image class="" src="../../static/icon/fenxiang.png" />
+                <view>
+                    分享
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="jiange"></view>
+    <view class="videoDetailsTxt">
+        <text class="" selectable="false" space="emsp" decode="false">
+  煤炭洗选是利用煤和杂质（矸石）的物理、化学性质的差异，通过物理、化学或微生物分选的方法使煤和杂质有效分离，并加工成质量均匀、用途不同的煤炭产品的一种加工技术。按选煤方法的不同，可分为物理选煤、物理化学选煤、化学选煤及微生物选煤等。
+  物理选煤是根据煤炭和杂质物理性质（如粒度、密度、硬度、磁性及电性等）上的差异进行分选，主要的物理分选方法有①重力选煤，包括跳汰选煤、重介质选煤、斜
+  物理化学选煤—浮游选煤（简称浮选），是依据矿物表面物理化学性质的差别进行分选，目前使用的浮选设备很多，主要包括机械搅拌式浮选和无无机械搅拌式浮选两种。
+  化学选煤是借助化学反应使煤中有用成分富集，除去杂质和有害成分的工艺过程。目前在实验室常用化学的方法脱硫。根据常用的化学药剂种类和反应原理的不同，可分为碱处理、氧化法和溶剂萃取等。
+  微生物选煤是用某些自养性和异养性微生物，直接或间接地利用其代谢产物从煤中溶浸硫，达到脱硫的目的。
+  物理选煤和物理化学选煤技术是实际选煤生产中常用的技术，一般可有效脱除煤中无机硫（黄铁矿硫），化学选煤和微生物选煤还可脱除煤中的有机硫。目前工业化生产中常用的选煤方法为跳汰、重介、浮选等选煤方法，此外干法选煤近几年发展也很快。"
+        </text>
+
+    </view>
+
+</view>

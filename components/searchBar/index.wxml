@@ -1,10 +1,16 @@
-<view class="searchBar">
-    <view class="searchBarBack">
-        <text class="locationCity">西安</text>
-        <image src=""></image>
-    </view>
-    <view class="serchBar_box serchBar_box_common">
-        <input type="search" placeholder="请输入公司或输入产品" class="searchBar_input searchBar_input_common"></input>
-        <mp-icon icon="search" color="black" size="{{20}}" class="icon icon_search"></mp-icon>
+<view class="publicSearchBar">
+    <view class="publicSearchBarBox">
+        <view class="addressICon">
+            <image src="../../static/icon/index.png" />
+        </view>
+        <view class="addressTxt">
+            陕西
+        </view>
+        <view class="searchIcon">
+            <image class="" src="../../static/icon/search.png" />
+        </view>
+        <view class="searchInp">
+            <input type="text" placeholder="请输入您要搜索的内容" />
+        </view>
     </view>
 </view>

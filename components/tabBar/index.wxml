@@ -20,7 +20,7 @@
                     <view class="weui-tabbar__item" id="2" bindtap="changeactiveindex" >
                         <image src="../../static/icon/icon_tabbar.png" alt class="weui-tabbar__icon"></image>
                         
-                        <view class="weui-tabbar__label tabbarLabel" bindtap="goproductList" style="color:{{activeindex=='2'?'red':''}}" >产品分类</view>
+                        <view class="weui-tabbar__label tabbarLabel" bindtap="goproductList"  >产品分类</view>
                         
                     </view>
                     </navigator>

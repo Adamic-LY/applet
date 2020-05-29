@@ -1,25 +1,48 @@
 <view class="tab">
-    <view class="navbar">
-        <view class="navbar__item navbar__item_on">
-            精煤
-        </view>
-        <view class="navbar__item">
-            兰炭
-        </view>
-        <view class="navbar__item">
-            煤焦油
-        </view>
-        <view class="navbar__item">
-            金属镁
-        </view>
-        <view class="navbar__item">
-            无烟煤
-        </view>
-        <view class="navbar__item">
-            煤化工设备
-        </view>
-        <view class="navbar__item">
-            煤矿设备
+    <view class="tabBox">
+        <view class="navbar">
+            <view data-index="{{1}}" class="{{activeIndex==1?'navbar__item_on':'navbar__item'}}" bindtap="changeActindex">
+                <view>
+                    精煤
+                </view>
+                <view wx:if="{{activeIndex==1}}" class="xiahuaxian"> </view>
+            </view>
+            <view data-index="{{2}}"class="{{activeIndex==2?'navbar__item_on':'navbar__item'}}" bindtap="changeActindex">
+                <view>
+                    兰炭
+                </view>
+                <view wx:if="{{activeIndex==2}}" class="xiahuaxian"> </view>
+            </view>
+            <view data-index="{{3}}" class="{{activeIndex==3?'navbar__item_on':'navbar__item'}}" bindtap="changeActindex">
+                <view>
+                    煤焦油
+                </view>
+                <view wx:if="{{activeIndex==3}}" class="xiahuaxian"> </view>
+            </view>
+            <view data-index="{{4}}" class="{{activeIndex==4?'navbar__item_on':'navbar__item'}}" bindtap="changeActindex">
+                <view>
+                    金属镁
+                </view>
+                <view wx:if="{{activeIndex==4}}" class="xiahuaxian"> </view>
+            </view>
+            <view data-index="{{5}}" class="{{activeIndex==5?'navbar__item_on':'navbar__item'}}" bindtap="changeActindex">
+                <view>
+                    无烟煤
+                </view>
+                <view wx:if="{{activeIndex==5}}" class="xiahuaxian"> </view>
+            </view>
+            <view data-index="{{6}}" class="{{activeIndex==6?'navbar__item_on':'navbar__item'}}" bindtap="changeActindex">
+                <view>
+                    煤化工设备
+                </view>
+                <view wx:if="{{activeIndex==6}}" class="xiahuaxian"> </view>
+            </view>
+            <view data-index="{{7}}" class="{{activeIndex==7?'navbar__item_on':'navbar__item'}}" bindtap="changeActindex">
+                <view>
+                    煤矿设备
+                </view>
+                <view wx:if="{{activeIndex==7}}" class="xiahuaxian"> </view>
+            </view>
         </view>
     </view>
 </view>

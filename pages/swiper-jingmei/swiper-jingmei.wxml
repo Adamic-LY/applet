@@ -1,36 +1,92 @@
 <!--pages/swiper-jingmei/swiper-jingmei.wxml-->
 <view>
-  <view class="searchbar">
-    <search-bar></search-bar>
-  </view>
-  <view class="navbar">
-    <nav-bar></nav-bar>
-  </view>
-  <view class="video"></view>
-  <view class="txt">精煤功能介绍</view>
-  <view class="companyList" wx:for="{{companyList}}" wx:key="index">
-    <view class="companyName">
-      <view class="portrait">
-        <image src=""></image>
-      </view>
-      <view class="nickname">万润达兰炭集团</view>
+    <view class="swiperSearchbarBox">
+        <search-bar></search-bar>
     </view>
-    <view class="companyImage">
-      <view class="right">
-        <view class="floatRight">
-          <view class="size">❤</view>
-          <view class="size">23W</view>
-        </view>
-        <view class="floatRight">
-          <view class="size">❤</view>
-          <view class="size">23W</view>
-        </view>
-        <view class="floatRight">
-          <view class="size">❤</view>
-          <view class="size">23W</view>
-        </view>
-      </view>
-      <view class="companyTxt">万润达兰炭集团有限公司精煤的用途</view>
+    <view style="height: 100rpx;"></view>
+    <view style="height: 100rpx;"></view>
+    <view class="swiperNavbar">
+        <nav-bar></nav-bar>
     </view>
-  </view>
+    <!-- <view style="height: 100rpx;"></view> -->
+    <view class="jiange"></view>
+    <view class="companyVideo">
+        <navigator url="../../pages/videoDetail/videoDetail">
+            <view class="videoBox">
+                <video class="" src="" initial-time="0" autoplay="false" loop="false" muted="false" direction="0" bindplay="" bindpause="" bindended="" bindtimeupdate="" bindwaiting="" binderror="">            
+        </video>
+            </view>
+            <view class="videoTxt">
+                公司煤炭储量货源充足,进货渠道多样,与榆林神木煤炭内蒙煤矿有着长期合作的关系
+            </view>
+            <view class="xiahuxian" style="border: 1rpx solid #f2f2f2;margin: 23rpx auto;"></view>
+            <view class="videoBtns">
+                <view class="videoBtn">
+                    <image class="" src="../../static/icon/dianzan.png" />
+                    <view>
+                        50
+                    </view>
+                </view>
+                <view class="videoBtn">
+                    <image class="" src="../../static/icon/pinglun.png" />
+                    <view>
+                        评论
+                    </view>
+                </view>
+                <view class="videoBtn">
+                    <image class="" src="../../static/icon/fenxiang.png" />
+                    <view>
+                        分享
+                    </view>
+                </view>
+            </view>
+        </navigator>
+    </view>
+    <view class="jiange" style="margin: 0 auto;"></view>
+    <view class="companyVideo">
+        <navigator url="../../pages/companyVideoDetail/companyVideoDetail">
+            <view class="companyVideoFlex">
+                <view class="flexImage">
+                    <image class="" src="../../static/icon/xiegang.png" />
+                </view>
+                <view class="flexName">
+                    万润达兰炭集团有限公司
+                </view>
+                <view class="flexBtn" bindtap="attention">
+                    <image class="" src="{{isattention?'../../static/icon/yiguanzhu.png':'../../static/icon/guanzhu.png'}}" />
+                </view>
+            </view>
+            <view class="videoTxt">
+                公司煤炭储量货源充足,进货渠道多样,与榆林神木煤炭内蒙煤矿有着长期合作的关系
+            </view>
+            <view class="videoBox">
+                <video class="" src="" initial-time="0" controls="false" autoplay="false" loop="false" muted="false" direction="0" bindplay="" bindpause="" bindended="" bindtimeupdate="" bindwaiting="" binderror="">
+              
+          </video>
+
+            </view>
+            <view class="xiahuxian" style="border: 1rpx solid #f2f2f2;margin: 23rpx auto;"></view>
+            <view class="videoBtns">
+                <view class="videoBtn">
+                    <image class="" src="../../static/icon/dianzan.png" />
+                    <view>
+                        50
+                    </view>
+                </view>
+                <view class="videoBtn">
+                    <image class="" src="../../static/icon/pinglun.png" />
+                    <view>
+                        评论
+                    </view>
+                </view>
+                <view class="videoBtn">
+                    <image class="" src="../../static/icon/fenxiang.png" />
+                    <view>
+                        分享
+                    </view>
+                </view>
+            </view>
+            <view class="jiange" style="margin: 0 auto;"></view>
+        </navigator>
+    </view>
 </view>

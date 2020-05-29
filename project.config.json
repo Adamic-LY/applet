@@ -4,9 +4,10 @@
 		"ignore": []
 	},
 	"setting": {
-		"urlCheck": true,
+		"urlCheck": false,
 		"es6": true,
 		"postcss": true,
+		"preloadBackgroundData": false,
 		"minified": true,
 		"newFeature": true,
 		"coverView": true,
@@ -355,6 +356,21 @@
 					"id": -1,
 					"name": "支付定金(物流)",
 					"pathName": "pages/payEarnest/payEarnest",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "视频详情",
+					"pathName": "pages/videoDetail/videoDetail",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "企业视频详情",
+					"pathName": "pages/companyVideoDetail/companyVideoDetail",
+					"query": "",
 					"scene": null
 				}
 			]

@@ -18,7 +18,10 @@
   <input class="myReleaseProcurerProductName" placeholder="请输入产品名称"></input>
   <view style="height:100rpx"></view>
   <view class="myReleaseProcureruploadImages">
-    <view class="myReleaseProcureruploadImage">+</view>
+    <view class="myReleaseProcureruploadImage" bindtap="test">+
+      <image src="{{tempFilePaths}}"  />
+        
+    </view>
     <view class="myReleaseProcureruploadImage">+</view>
     <view class="myReleaseProcureruploadImage">+</view>
   </view>

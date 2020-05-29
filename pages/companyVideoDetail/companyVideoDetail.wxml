@@ -1,0 +1,12 @@
+<!--pages/companyVideoDetail/companyVideoDetail.wxml-->
+<view class="companyVideoDetail">
+    <view style="height: 20rpx;background-color: #f2f2f2;"></view>
+    <view class="companyVideo">
+        <view class="videoBox">
+            <video class="" src="" direction="90" show-center-play-btn="{{true}}" play-btn-position="center">
+            </video>
+        </view>
+        <view style="height: 20rpx;background-color: #f2f2f2;">
+        </view>
+    </view>
+</view>

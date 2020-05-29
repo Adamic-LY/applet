@@ -1,49 +1,81 @@
 /* 顶部搜索 */
 
 .searchBar {
-    position: relative;
-    padding: 20rpx;
-    height: 100rpx;
-    width: 100%;
-    padding-left: 10rpx;
-    /* margin-bottom: 100rpx; */
-    box-sizing: border-box;
-    background-color: #eee;
+    width: 750rpx;
+    height: 126rpx;
+    display: flex;
+    background-color: white;
+    align-items: center;
 }
 
 .location {
-    position: absolute;
-    height: 60rpx;
-    line-height: 60rpx;
+    width: 633rpx;
+    height: 73rpx;
+    background-color: #f2f2f2;
+    border-radius: 5rpx;
+    margin: 21rpx 0 12rpx 24rpx;
+    display: flex;
+    align-items: center;
 }
 
-.searchBar>.location>text {
-    position: absolute;
-    width: 60rpx;
-    margin-left: 40rpx;
-    /* background-color: #000; */
-    font-size: 30rpx;
-    line-height: 60rpx;
-    /* text-align: center; */
+.indexAddress {
+    width: 23rpx;
+    height: 28rpx;
+    margin-left: 2vw;
+    /* background-color: #7d7d7d; */
 }
 
-.searchBar>.serchBar_box {
-    position: absolute;
-    height: 60rpx;
-    line-height: 60rpx;
-    width: 400rpx;
-    box-sizing: border-box;
-    left: 120rpx;
+.location view {
+    font-family: PingFang-SC-Bold;
+    font-size: 26rpx;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 72rpx;
+    letter-spacing: 0rpx;
+    color: #373636;
+    margin-left: 2vw;
 }
 
-.searchBar>.serchBar_box>.searchBar_input {
-    position: absolute;
-    display: inline-block;
-    width: 540rpx;
-    background-color: #fff;
-    border-radius: 8rpx;
-    height: 60rpx;
-    padding-left: 60rpx;
-    box-sizing: border-box;
-    font-size: 30rpx;
+.search {
+    width: 24rpx;
+    height: 24rpx;
+    margin-left: 8vw;
+}
+
+.searchBar_input {
+    width: 32vw;
+    height: 3vw;
+    font-family: PingFang-SC-Medium;
+    font-size: 3vw;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 10vw;
+    letter-spacing: 0vw;
+    color: #aaaaaa;
+    margin-left: 17rpx;
+}
+.message{
+    height: 73rpx;
+
+}
+.messageImg{
+    width: 27rpx;
+    height: 30rpx;
+    margin-left: 30rpx;
+
+}
+.messageImg image {
+    width: 27rpx;
+    height: 30rpx;
+    /* margin-top: 31rpx; */
+}
+
+.messageTxt {
+    height: 43rpx;
+    font-size: 22rpx;
+    color: #434343;
+    /* position: relative;
+    bottom: 16rpx; */
+    margin-left: 21rpx;
+    line-height: 65rpx;
 }

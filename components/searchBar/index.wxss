@@ -1,36 +1,58 @@
-.serchBar_box_common {
-    width: 480rpx!important;
-    left: 150rpx!important;
-    top: 20rpx;
+.publicSearchBar {
+    width: 100vw;
+    height: 100rpx;
+    background-color: #f2f2f2;
+    display: flex;
+    align-items: center;
 }
 
-.searchBar_input_common {
-    width: 480rpx!important;
+.publicSearchBarBox {
+    width: 700rpx;
+    height: 75rpx;
+    background-color: white;
+    margin: 15rpx auto;
+    display: flex;
+    align-items: center;
 }
 
-.icon_back_common {
-    top: 3rpx;
+.addressICon image {
+    width: 23rpx;
+    height: 28rpx;
 }
 
-.icon_location_common {
-    left: 30rpx;
-}
-
-.icon {
-    position: absolute;
-    top: -3rpx;
-}
-
-.icon_search {
-    left: 10rpx;
-}
-
-.searchBarBack {
+.addressICon {
+    margin-left: 17rpx;
     position: relative;
-    height: 60rxp;
-    line-height: 60rpx;
+    top: -1rpx;
 }
 
-.locationCity {
-    margin-left: 70rpx;
+.addressTxt {
+    width: 80rpx;
+    height: 26rpx;
+    color: #373636;
+    font-size: 26rpx;
+    margin-left: 15rpx;
+    line-height: 26rpx;
+    border-right: 1rpx solid #f2f2f2;
+}
+
+.searchIcon {
+    margin-left: 33rpx;
+    position: relative;
+    top: -2rpx;
+}
+
+.searchIcon image {
+    width: 24rpx;
+    height: 24rpx;
+}
+
+.searchInp {
+    margin-left: 17rpx;
+}
+
+.searchInp input {
+    height: 23rpx;
+    font-size: 24rpx;
+    color: #aaaaaa;
 }

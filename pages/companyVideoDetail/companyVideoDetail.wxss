@@ -1,0 +1,22 @@
+/* pages/companyVideoDetail/companyVideoDetail.wxss */
+
+.companyVideo {
+    width: 710rpx;
+    margin: 16rpx auto;
+}
+
+.videoBox {
+    width: 702rpx;
+    height: 396rpx;
+    border-radius: 10rpx;
+    overflow: hidden;
+    margin-top: 10rpx;
+}
+
+.jiange {
+    width: 693rpx;
+    height: 15rpx;
+    background-color: #f2f2f2;
+    border-radius: 15rpx;
+    margin: 21rpx auto;
+}

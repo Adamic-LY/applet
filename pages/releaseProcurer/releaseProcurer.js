@@ -5,14 +5,15 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    tempFilePaths: [],
+    tempFiles:[]
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+   getApp()
   },
 
   /**
@@ -62,5 +63,54 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+
+  test(){
+    var that=this;
+    wx.showActionSheet({
+      itemList:[
+        "从相册选择",
+        "拍照"
+      ],
+      success:function(res){
+        var source="album";
+        if(res.tapIndex==1){
+          source="camera"
+        }
+        wx.chooseImage({      
+          count:1,
+          sourceType:source,
+          success:function(res){
+            const tempFilePaths =res.tempFilePaths;
+            that.setData({
+              tempFilePaths:res.tempFilePaths,
+              tempFiles:res.tempFiles
+            })
+          //  wx.uploadFile({
+          //    filePath:tempFilePaths[0] ,
+          //    name: 'name',
+          //    url: 'https://wldpvc.com/api/v1/tpsc',
+          //    header:{
+          //     "Content-Type": "multipart/form-data"
+          //    },
+          //    success:function(res){
+          //      console.log(res.data)
+          //    }
+          //  })
+          wx.request({
+            url: 'https://wldpvc.com/api/v1/tpsc',
+            method:'POST',
+            header:{
+              "Content-Type": "multipart/form-data"
+            },
+            data:tempFilePaths[0],
+            complete:function(res){
+              console.log(res)
+            }
+          })
+          }
+        })
+      }
+    })
   }
 })

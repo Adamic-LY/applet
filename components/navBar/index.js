@@ -55,5 +55,12 @@ Page({
       url: '../../pages/product-shebei/product-shebei',
     })
   },
-  
+  changeActindex:function(e){
+    this.setData({
+      activeIndex:e.currentTarget.dataset.index
+    })
+    // wx.navigateTo({
+    //   url: 'url',
+    // })
+  }
 });

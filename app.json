@@ -68,7 +68,9 @@
     "pages/owenrPublishingEditor/owenrPublishingEditor",
     "pages/driverPublishing/driverPublishing",
     "pages/findLawDetail/findLawDetail",
-    "pages/payEarnest/payEarnest"
+    "pages/payEarnest/payEarnest",
+    "pages/videoDetail/videoDetail",
+    "pages/companyVideoDetail/companyVideoDetail"
   ],
   "window": {
     "backgroundTextStyle": "light",

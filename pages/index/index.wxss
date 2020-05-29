@@ -1,3 +1,11 @@
+swiper {
+    width: 702rpx;
+    height: 325rpx;
+    margin: 21rpx auto;
+    border-radius: 10rpx 10rpx;
+    overflow: hidden;
+}
+
 .home.data-v-74e39a5e {
     width: 100%;
     padding-bottom: 70px;
@@ -14,6 +22,10 @@
     display: block;
 }
 
+.searchBarBox {
+    width: 633rpx;
+}
+
 .home-show.data-v-74e39a5e {
     display: -webkit-box;
     display: -webkit-flex;
@@ -22,51 +34,155 @@
 }
 
 .homeMenu {
-    margin-top: 50rpx;
-    height: 350rpx;
+    width: 688rpx;
+    margin: 20rpx auto;
 }
 
-.homeMenu .homeMenuList {
-    height: 160rpx;
+.homeMenuList {
     display: flex;
+    justify-content: space-around;
+    margin-bottom: 25rpx;
 }
 
-.homeMenu .homeMenuList .homeMenuListDetails {
-    flex: 1;
-    text-align: center;
+.homeMenuListDetails {
+    /* width: 100rpx; */
+    /* height: 100rpx; */
+    width: 20%;
 }
 
-.homeMenu .homeMenuList image {
-    width: 50rpx;
-    height: 50rpx;
+.homeMenuListDetails image {
     display: block;
+    width: 100rpx;
+    height: 100rpx;
     margin: 0 auto;
+}
+
+.homeMenuListDetails view {
+    display: block;
+    font-size: 26rpx;
+    color: #333333;
+    text-align: center;
+    margin-top: 19rpx;
+}
+
+.jiange {
+    width: 693rpx;
+    height: 15rpx;
+    background-color: #f2f2f2;
+    border-radius: 15rpx;
+    margin: 21rpx auto;
+}
+
+.videoRecommend {
+    width: 702rpx;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 77rpx;
+    border-bottom: 1rpx solid #f2f2f2;
+}
+
+.videoRecommend image {
+    width: 36rpx;
+    height: 26rpx;
+}
+
+.videoRecommendTxt {
+    font-size: 34rpx;
+    color: #1e1e1e;
+    margin-left: 21rpx;
+}
+
+.companyVideoFlex {
+    display: flex;
+    align-items: center;
+}
+
+.flexImage image {
+    width: 70rpx;
+    height: 70rpx;
     border-radius: 50%;
-    margin-bottom: 20rpx;
+}
+
+.flexName {
+    width: 468rpx;
+    font-size: 32rpx;
+    margin-left: 21rpx;
+    text-align: left;
+}
+
+.flexBtn {
+    width: 142rpx;
+    height: 55rpx;
+}
+
+.flexBtn image {
+    width: 142rpx;
+    height: 55rpx;
+}
+
+.videoTxt {
+    width: 679rpx;
+    font-size: 28rpx;
+    color: #666666;
+}
+
+.videoBox {
+    width: 702rpx;
+    height: 396rpx;
+    border-radius: 10rpx;
+    overflow: hidden;
+    margin-top: 63rpx;
+}
+
+.videoBox video {
+    width: 720rpx;
+    height: 396rpx;
+}
+
+.videoBtns {
+    width: 614rpx;
+    margin: 34rpx auto 30rpx auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.videoBtn {
+    display: flex;
+    font-size: 30rpx;
+    color: #686868;
+    align-items: center;
+}
+
+.videoBtn image {
+    width: 30rpx;
+    height: 27rpx;
+    margin-right: 11rpx;
 }
 
 
 /* 广告 */
 
-.homeBanner {
-    width: 700rpx;
-    margin: 0 auto;
-    height: 200rpx;
-    line-height: 200rpx;
-    text-align: center;
-    border: 1px solid #eee;
+.companyVideo {
+    width: 710rpx;
+    margin: 16rpx auto;
 }
 
-.searchBarBox{
+.searchBarBox {
     width: 100vw;
     position: fixed;
     top: 0;
+    z-index: 999;
 }
-.tabBarBox{
+
+.tabBarBox {
     width: 100vw;
     position: fixed;
     bottom: 0;
+    z-index: 1000;
 }
-.indexContent{
+
+.indexContent {
     margin-top: 100rpx;
 }

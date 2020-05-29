@@ -1,16 +1,24 @@
- <!--index.wxml-->
+<!--index.wxml-->
 <view>
-    <view class="searchBarBox"><search-bar-home></search-bar-home></view>
-    <view class="tabBarBox"><tab-bar></tab-bar></view>
+    <view class="searchBarBox">
+        <search-bar-home></search-bar-home>
+    </view>
+    <view class="tabBarBox">
+        <tab-bar></tab-bar>
+    </view>
+    <view style="height: 30rpx;">
+
+    </view>
+
     <view class="indexContent">
         <!-- 首页轮播图 -->
         <swiper autoplay indicator-dots circular indicator-color="rgba(255, 255, 255, .3)" indicator-active-color="#fff">
             <block>
                 <swiper-item class="data-v-74e39a5e">
                     <navigator url="../../pages/swiper-jingmei/swiper-jingmei">
-                    <view class="home-top data-v-74e39a5e">
-                        <image src="../../static/image/banner.png" alt class="_img data-v-74e39a5e"></image>
-                    </view>
+                        <view class="home-top data-v-74e39a5e">
+                            <image src="../../static/image/banner.png" alt class="_img data-v-74e39a5e"></image>
+                        </view>
                     </navigator>
                 </swiper-item>
                 <swiper-item class="data-v-74e39a5e">
@@ -39,43 +47,96 @@
         <view class="homeMenu">
             <view class="homeMenuList">
                 <view class="homeMenuListDetails" bindtap="gojingmei">
-                    <image src="../../static/icon/car.png" alt=""></image>
-                    <block>精煤</block>
+                    <image src="../../static/icon/jingmei.png" alt=""></image>
+                    <view>精煤</view>
                 </view>
                 <view class="homeMenuListDetails" bindtap="golantan">
-                    <image src="../../static/icon/car.png" alt=""></image>
-                    <block>兰炭</block>
+                    <image src="../../static/icon/lantan.png" alt=""></image>
+                    <view>兰炭</view>
                 </view>
                 <view class="homeMenuListDetails" bindtap="gowuyanmei">
-                    <image src="../../static/icon/car.png" alt=""></image>
-                    <block>无烟煤</block>
+                    <image src="../../static/icon/wuyanmei.png" alt=""></image>
+                    <view>无烟煤</view>
                 </view>
                 <view class="homeMenuListDetails" bindtap="gojinshumei">
-                    <image src="../../static/icon/car.png" alt=""></image>
-                    <block>金属镁</block>
+                    <image src="../../static/icon/jinshumei.png" alt=""></image>
+                    <view>金属镁</view>
                 </view>
             </view>
             <view class="homeMenuList">
                 <view class="homeMenuListDetails" bindtap="gomeijiaoyou">
-                    <image src="../../static/icon/car.png" alt=""></image>
-                    <block>煤焦油</block>
+                    <image src="../../static/icon/meijiaoyou.png" alt=""></image>
+                    <view>煤焦油</view>
                 </view>
                 <view class="homeMenuListDetails" bindtap="gohuagong">
-                    <image src="../../static/icon/car.png" alt=""></image>
-                    <block>煤化工设备</block>
+                    <image src="../../static/icon/meihuagong.png" alt=""></image>
+                    <view>煤化工设备</view>
                 </view>
                 <view class="homeMenuListDetails" bindtap="goshebei">
-                    <image src="../../static/icon/car.png" alt=""></image>
-                    <block>煤矿设备</block>
+                    <image src="../../static/icon/shebei.png" alt=""></image>
+                    <view>煤矿设备</view>
                 </view>
                 <view class="homeMenuListDetails" bindtap="gowuliu">
-                    <image src="../../static/icon/car.png" alt=""></image>
-                    <block>物流运输</block>
+                    <image src="../../static/icon/wuliu.png" alt=""></image>
+                    <view>物流运输</view>
                 </view>
             </view>
         </view>
-        <view class="homeBanner">
-            平台介绍招商加盟
+        <view class="jiange"></view>
+        <view class="videoRecommend">
+            <image class=""  src="../../static/icon/xiegang.png" />
+            <view class="videoRecommendTxt">
+                视频推荐
+            </view>
+            <image class="" style="margin-left: 21rpx;" src="../../static/icon/xiegang.png" />
+        </view>
+        <view class="companyVideo" wx:for="{{videoRecommend}}" wx:key="index">
+            <view class="companyVideoFlex">
+                <view class="flexImage">
+                    <image class="" src="../../static/icon/xiegang.png" />
+                </view>
+                <view class="flexName">
+                    万润达兰炭集团有限公司
+                </view>
+                <view class="flexBtn" bindtap="attention">
+                    <image class="" src="{{videoRecommend[index].isfollow==0?'../../static/icon/yiguanzhu.png':'../../static/icon/guanzhu.png'}}" />
+                </view>
+            </view>
+            <view class="videoTxt">
+                公司煤炭储量货源充足,进货渠道多样,与榆林神木煤炭内蒙煤矿有着长期合作的关系
+            </view>
+            <view class="videoBox">
+                <video class="" src="{{videoRecommend[index].video_url}}"  direction="90" show-center-play-btn="{{true}}"  play-btn-position="center">
+                    
+                </video>
+
+            </view>
+            <view class="xiahuxian" style="border: 1rpx solid #f2f2f2;margin: 23rpx auto;"></view>
+            <view class="videoBtns">
+                <view class="videoBtn">
+                    <image class="" src="../../static/icon/dianzan.png" />
+                    <view>
+                        {{videoRecommend[index].dzsl}}
+                    </view>
+                </view>
+                <view class="videoBtn">
+                    <image class="" src="../../static/icon/pinglun.png" />
+                    <view>
+                        评论
+                    </view>
+                </view>
+                <view class="videoBtn">
+                    <image class="" src="../../static/icon/fenxiang.png" />
+                    <view>
+                        分享
+                    </view>
+                </view>
+            </view>
+            <view class="jiange" style="margin: 0 auto;"></view>
         </view>
     </view>
+    <view class="zhanwei" style="height: 300rpx;">
+
+    </view>
+
 </view>
