@@ -1,0 +1,29 @@
+/* components/productSearchbar/productSearchbar.wxss */
+
+.productSearchbarBox {
+    width: 691rpx;
+    height: 60rpx;
+    background-color: #f5f5f5;
+    border-radius: 30rpx;
+    margin: 10rpx auto;
+    display: flex;
+    align-items: center;
+}
+
+.flexImage {
+    margin-left: 30rpx;
+}
+
+.flexImage image {
+    width: 28rpx;
+    height: 28rpx;
+}
+
+.flexInp {
+    margin-left: 21rpx;
+}
+
+.flexInp input {
+    font-size: 28rpx;
+    color: #999999;
+}

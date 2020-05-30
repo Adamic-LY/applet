@@ -1,15 +1,22 @@
 //index.js
 //获取应用实例
 const app = getApp()
-
+import {requestIndexClassify,requestIndexLb,requestIndexVideoRecommend} from "../../utils/network"
 Page({
     data: {
         motto: 'Hello World',
         userInfo: {},
         hasUserInfo: false,
         canIUse: wx.canIUse('button.open-type.getUserInfo'),
-        isattention: false,
-        videoRecommend:[]
+        isattention: null,
+        // 视频推荐列表 
+        videoRecommend:null,
+        // 轮播列表
+        lblist:null,
+        // 分类列表
+        classifyList:null,
+        lbid:1,
+
     },
     //事件处理函数
     bindViewTap: function() {
@@ -47,18 +54,26 @@ Page({
         };
     },
     onShow:function(){
-        wx.request({
-            url: app.globalData.url+'video_list',
-            data:{
-              page:'1'
-            },
-            method:'POST',
-            success:(res)=>{
+        // 请求轮播
+        requestIndexLb().then(data=>{
+            this.setData({
+                lblist:data.data
+            })
+        })
+        // 请求首页大分类
+        requestIndexClassify().then(data=>{
+            this.setData({
+                classifyList:data.data
+            })
+        })
+        // 请求首页推荐视频
+        requestIndexVideoRecommend(1).then(data=>{
               this.setData({
-                videoRecommend:res.data.data
+                videoRecommend:data.data
               })
-            }
-          })
+        })
+
+      
     },
     getUserInfo: function(e) {
         console.log(e)
@@ -68,50 +83,45 @@ Page({
             hasUserInfo: true
         })
     },
-    gojingmei: function() {
-        wx.navigateTo({
-            url: '../../pages/index-jingmei/index-jingmei',
-        })
+    changeAttention:function(e){
+        if(app.globalData.uid){
+            var arr=this.data.isattention
+            if(this.data.isattention[e.target.dataset.index]==1){
+                arr[e.target.dataset.index]=0;
+                this.setData({
+                  isattention:arr
+                })
+            }else{
+              arr[e.target.dataset.index]=1;
+              this.setData({
+                  isattention:arr
+                })
+            }
+        }else{
+            wx.showModal({
+              title:"提示",
+              content:"请先登录",
+              success(res){
+                  if(res.confirm){
+                    //   wx.login({
+                    //     complete: (res) => {},
+                    //   })
+                  }else if(res.cancel){
+                      
+                  }
+
+                  
+              }
+            })
+        }
+         
     },
-    golantan: function() {
-        wx.navigateTo({
-            url: '../../pages/index-lantan/index-lantan',
-        })
-    },
-    gowuyanmei: function() {
-        wx.navigateTo({
-            url: '../../pages/index-wuyanmei/index-wuyanmei',
-        })
-    },
-    gojinshumei: function() {
-        wx.navigateTo({
-            url: '../../pages/index-jinshumei/index-jinshumei',
-        })
-    },
-    gomeijiaoyou: function() {
-        wx.navigateTo({
-            url: '../../pages/index-meijiaoyou/index-meijiaoyou',
-        })
-    },
-    gohuagong: function() {
-        wx.navigateTo({
-            url: '../../pages/index-huagong/index-huagong',
-        })
-    },
-    goshebei: function() {
-        wx.navigateTo({
-            url: '../../pages/index-shebei/index-shebei',
-        })
-    },
-    gowuliu: function() {
-        wx.navigateTo({
-            url: '../../pages/index-wuliu/index-wuliu',
-        })
-    },
-    attention: function() {
-        this.setData({
-            isattention: true
-        })
+    goswiperDetail(e){
+       this.setData({
+           lbid:e.currentTarget.id
+       })
+       wx.navigateTo({
+         url: '../../pages/swiper-jingmei/swiper-jingmei?currentid='+this.data.lbid,
+       })
     }
-    
 })

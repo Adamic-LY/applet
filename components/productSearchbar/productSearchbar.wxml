@@ -1,0 +1,11 @@
+<!--components/productSearchbar/productSearchbar.wxml-->
+<view class="productSearchbar">
+    <view class="productSearchbarBox">
+        <view class="flexImage">
+            <image class="" src="../../static/icon/search.png" />
+        </view>
+        <view class="flexInp">
+            <input type="text" placeholder="搜索公司或产品" />
+        </view>
+    </view>
+</view>

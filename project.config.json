@@ -372,6 +372,33 @@
 					"pathName": "pages/companyVideoDetail/companyVideoDetail",
 					"query": "",
 					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "产品介绍navbar",
+					"pathName": "components/productnavBar/productnavBar",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "产品介绍搜索框",
+					"pathName": "components/productSearchbar/productSearchbar",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "首页精煤",
+					"pathName": "pages/index-jingmei/index-jingmei",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "精煤导航栏",
+					"pathName": "components/jingmei-nav/jingmei-nav",
+					"scene": null
 				}
 			]
 		}

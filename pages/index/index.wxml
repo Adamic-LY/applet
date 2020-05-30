@@ -14,32 +14,10 @@
         <!-- 首页轮播图 -->
         <swiper autoplay indicator-dots circular indicator-color="rgba(255, 255, 255, .3)" indicator-active-color="#fff">
             <block>
-                <swiper-item class="data-v-74e39a5e">
-                    <navigator url="../../pages/swiper-jingmei/swiper-jingmei">
-                        <view class="home-top data-v-74e39a5e">
-                            <image src="../../static/image/banner.png" alt class="_img data-v-74e39a5e"></image>
+                <swiper-item wx:for="{{lblist}}"  wx:key="index" class="data-v-74e39a5e"  >
+                        <view bindtap="goswiperDetail" id="{{lblist[index].id}}" class="home-top data-v-74e39a5e">
+                            <video url="{{lblist[index].video_url}}"  class="_img data-v-74e39a5e"></video>
                         </view>
-                    </navigator>
-                </swiper-item>
-                <swiper-item class="data-v-74e39a5e">
-                    <view class="home-top data-v-74e39a5e">
-                        <image src="../../static/image/banner.png" alt class="_img data-v-74e39a5e"></image>
-                    </view>
-                </swiper-item>
-                <swiper-item class="data-v-74e39a5e">
-                    <view class="home-top data-v-74e39a5e">
-                        <image src="../../static/image/banner.png" alt class="_img data-v-74e39a5e"></image>
-                    </view>
-                </swiper-item>
-                <swiper-item class="data-v-74e39a5e">
-                    <view class="home-top data-v-74e39a5e">
-                        <image src="../../static/image/banner.png" alt class="_img data-v-74e39a5e"></image>
-                    </view>
-                </swiper-item>
-                <swiper-item class="data-v-74e39a5e">
-                    <view class="home-top data-v-74e39a5e">
-                        <image src="../../static/image/banner.png" alt class="_img data-v-74e39a5e"></image>
-                    </view>
                 </swiper-item>
             </block>
         </swiper>
@@ -99,7 +77,7 @@
                     万润达兰炭集团有限公司
                 </view>
                 <view class="flexBtn" bindtap="attention">
-                    <image class="" src="{{videoRecommend[index].isfollow==0?'../../static/icon/yiguanzhu.png':'../../static/icon/guanzhu.png'}}" />
+                    <image class="" data-index="{{index}}" src="{{isattention[index]==0?'../../static/icon/yiguanzhu.png':'../../static/icon/guanzhu.png'}}" bindtap="changeAttention" />
                 </view>
             </view>
             <view class="videoTxt">

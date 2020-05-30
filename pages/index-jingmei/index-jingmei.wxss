@@ -14,7 +14,7 @@
 }
 .jiange{
   width: 750rpx;
-  height: 180rpx
+  height: 80rpx
 }
 /* pages/minningCompany/minningCompany.wxss */
 

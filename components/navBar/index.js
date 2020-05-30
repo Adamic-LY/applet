@@ -8,7 +8,8 @@ Page({
     sliderOffset: 0,
     sliderLeft: 0
   },
-  onLoad: function() {
+  onLoad: function(options) {
+    console.log(options)
     var that = this;
     wx.getSystemInfo({
       success: function(res) {
@@ -25,36 +26,7 @@ Page({
       activeIndex: e.currentTarget.id
     });
   },
-  golantan: function() {
-    wx.navigateTo({
-      url: '../../pages/product-lantan/product-lantan',
-    })
-  },
-  gomeijiaoyou: function() {
-    wx.navigateTo({
-      url: '../../pages/product-meijiaoyou/product-meijiaoyou',
-    })
-  },
-  gojinshumei: function () {
-    wx.navigateTo({
-      url: '../../pages/product-jinshumei/product-jinshumei',
-    })
-  }, 
-  gowuyanmei: function () {
-    wx.navigateTo({
-      url: '../../pages/product-wuyanmei/product-wuyanmei',
-    })
-  },
-  gohuagong: function () {
-    wx.navigateTo({
-      url: '../../pages/product-huagong/product-huagong',
-    })
-  },
-  goshebei: function () {
-    wx.navigateTo({
-      url: '../../pages/product-shebei/product-shebei',
-    })
-  },
+ 
   changeActindex:function(e){
     this.setData({
       activeIndex:e.currentTarget.dataset.index

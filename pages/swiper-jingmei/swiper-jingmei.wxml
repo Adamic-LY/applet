@@ -6,7 +6,7 @@
     <view style="height: 100rpx;"></view>
     <view style="height: 100rpx;"></view>
     <view class="swiperNavbar">
-        <nav-bar></nav-bar>
+        <nav-bar activeindex="{{activeindex}}"></nav-bar>
     </view>
     <!-- <view style="height: 100rpx;"></view> -->
     <view class="jiange"></view>

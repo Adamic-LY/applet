@@ -5,14 +5,17 @@ Page({
      * 页面的初始数据
      */
     data: {
-        companyList: 4
+        companyList: 4,
+        activeIndex:1
     },
 
     /**
      * 生命周期函数--监听页面加载
      */
     onLoad: function(options) {
-
+        this.setData({
+            activeIndex:options.currentid
+        })
     },
 
     /**

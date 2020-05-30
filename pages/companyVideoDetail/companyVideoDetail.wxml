@@ -2,11 +2,133 @@
 <view class="companyVideoDetail">
     <view style="height: 20rpx;background-color: #f2f2f2;"></view>
     <view class="companyVideo">
-        <view class="videoBox">
+        <view class="companyvideoBox">
             <video class="" src="" direction="90" show-center-play-btn="{{true}}" play-btn-position="center">
             </video>
         </view>
-        <view style="height: 20rpx;background-color: #f2f2f2;">
+    </view>
+    <view style="height: 20rpx;background-color: #f2f2f2;"></view>
+    <view class="companyDetail">
+        <view class="companyDetailFlex">
+
+            <image class="" src="../../static/icon/shebei.png" />
+
+            <view class="companyName">
+                北京鑫煤炭集团公司
+            </view>
+        </view>
+        <view class="companyCard">
+            <view class="cardRed">
+                <view class="cardRedImage">
+                    <image class="" src="../../static/icon/shebei.png" />
+
+                </view>
+                <view class="cardName">
+                    北京鑫煤炭集团公司
+                </view>
+                <view class="cardRedFlex">
+                    <view class="cardRedBtn" style="margin-left: 93rpx;">
+                        <image class="" src="../../static/icon/wx@2x.png" />
+                        <view>
+                            打电话
+                        </view>
+                    </view>
+                    <view class="cardRedBtn" style="margin-left: 75rpx;">
+                        <image class="" src="../../static/icon/2009@2x.png" />
+                        <view>
+                            加微信
+                        </view>
+                    </view>
+                </view>
+            </view>
+            <view class="cardWhite">
+                <view class="wxFlex">
+                    <image class="" src="../../static/icon/wx@2x.png" />
+                    <view>
+                        a123454545454
+                    </view>
+                </view>
+                <view class="cardWhitexiahuaxian"></view>
+                <view class="cardWhiteTxt">
+                    我是煤炭工业信息平台，因为专业，所有卓越 精诚为您服务，如有需求，请随时与我联系 </view>
+
+            </view>
+        </view>
+        <view class="companyDetailTxt">
+            <text class="" selectable="false" space="emsp" decode="false">
+                煤炭洗选是利用煤和杂质（矸石）的物理、化学性质的差异，通过物理、化学或微生物分选的方法使煤和杂质有效分离，并加工成质量均匀、用途不同的煤炭产品的一种加工技术。按选煤方法的不同，可分为物理选煤、物理化学选煤、化学选煤及微生物选煤等。
+                物理选煤是根据煤炭和杂质物理性质（如粒度、密度、硬度、磁性及电性等）上的差异进行分选，主要的物理分选方法有①重力选煤，包括跳汰选煤、重介质选煤、斜槽选煤、摇床选煤、风力选煤等。②电磁选，利用煤和杂质的电磁性能差异进行分选，这种方法在选煤实际生产中没有应用。
+                物理化学选煤—浮游选煤（简称浮选），是依据矿物表面物理化学性质的差别进行分选，目前使用的浮选设备很多，主要包括机械搅拌式浮选和无无机械搅拌式浮选两种。
+                化学选煤是借助化学反应使煤中有用成分富集，除去杂质和有害成分的工艺过程。目前在实验室常用化学的方法脱硫。根据常用的化学药剂种类和反应原理的不同，可分为碱处理、氧化法和溶剂萃取等。
+                微生物选煤是用某些自养性和异养性微生物，直接或间接地利用其代谢产物从煤中溶浸硫，达到脱硫的目的。
+                物理选煤和物理化学选煤技术是实际选煤生产中常用的技术，一般可有效脱除煤中无机硫（黄铁矿硫），化学选煤和微生物选煤还可脱除煤中的有机硫。目前工业化生产中常用的选煤方法为跳汰、重介、浮选等选煤方法，此外干法选煤近几年发展也很快。
+            </text>
+        </view>
+        <view class="companyCard">
+            <view class="cardRed">
+                <view class="cardRedImage">
+                    <image class="" src="../../static/icon/shebei.png" />
+
+                </view>
+                <view class="cardName">
+                    北京鑫煤炭集团公司
+                </view>
+                <view class="cardRedFlex">
+                    <view class="cardRedBtn" style="margin-left: 93rpx;">
+                        <image class="" src="../../static/icon/wx@2x.png" />
+                        <view>
+                            打电话
+                        </view>
+                    </view>
+                    <view class="cardRedBtn" style="margin-left: 75rpx;">
+                        <image class="" src="../../static/icon/2009@2x.png" />
+                        <view>
+                            加微信
+                        </view>
+                    </view>
+                </view>
+            </view>
+            <view class="cardWhite">
+                <view class="wxFlex">
+                    <image class="" src="../../static/icon/wx@2x.png" />
+                    <view>
+                        a123454545454
+                    </view>
+                </view>
+                <view class="cardWhitexiahuaxian"></view>
+                <view class="cardWhiteTxt">
+                    我是煤炭工业信息平台，因为专业，所有卓越 精诚为您服务，如有需求，请随时与我联系 </view>
+
+            </view>
         </view>
     </view>
+    <view style="height: 153rpx;"></view>
+
+    <view class="footBtnBox">
+        <view class="footBtnBoxBtn">
+            上传我的产品
+        </view>
+    </view>
+    <view class="right">
+        <view class="rightBtn" style="border-bottom: 1rpx solid #f2f2f2;">
+            <image class="" src="../../static/icon/2016wwd@2x.png" />
+            <view>
+                分享此文
+            </view>
+        </view>
+        <view class="rightBtn" style="border-bottom: 1rpx solid #f2f2f2;">
+            <image class="" src="../../static/icon/2035qqq@2x.png" />
+            <view>
+                立即致电
+            </view>
+        </view>
+        <view class="rightBtn">
+            <image class="" src="../../static/icon/2021ewqeq@2x.png" />
+            <view>
+                立即购买
+            </view>
+        </view>
+
+    </view>
+
 </view>

@@ -5,12 +5,16 @@
     margin: 16rpx auto;
 }
 
-.videoBox {
+.companyvideoBox {
     width: 702rpx;
     height: 396rpx;
     border-radius: 10rpx;
     overflow: hidden;
     margin-top: 10rpx;
+}
+.companyvideoBox video{
+    width: 702rpx;
+    height: 396rpx;
 }
 
 .jiange {
@@ -19,4 +23,180 @@
     background-color: #f2f2f2;
     border-radius: 15rpx;
     margin: 21rpx auto;
+}
+
+.companyDetail {
+    margin-top: 20rpx;
+}
+
+.companyDetailFlex {
+    display: flex;
+    align-items: center;
+}
+
+.companyDetailFlex image {
+    width: 70rpx;
+    height: 70rpx;
+    border-radius: 50%;
+    margin-left: 17rpx;
+}
+
+.companyName {
+    font-size: 32rpx;
+    color: #000000;
+    margin-left: 21rpx;
+}
+
+.companyCard {
+    width: 681rpx;
+    margin: 44rpx auto 0 auto;
+}
+
+.cardRed {
+    width: 657rpx;
+    height: 300rpx;
+    margin: 98rpx auto 0 auto;
+    background-image: linear-gradient(-30deg, #ea3b2b 0%, #ec604e 100%);
+    border-radius: 10rpx 10rpx 0 0;
+    box-shadow: 2rpx #f2f2f2;
+}
+
+.cardRedImage {
+    margin: 0 auto;
+    width: 107rpx;
+    height: 107rpx;
+    position: relative;
+    bottom: 54rpx;
+}
+
+.cardRed image {
+    width: 107rpx;
+    height: 107rpx;
+    border-radius: 50%;
+}
+
+.cardName {
+    text-align: center;
+    font-size: 30rpx;
+    color: #ffffff;
+    position: relative;
+    bottom: 20rpx;
+}
+
+.cardRedFlex {
+    display: flex;
+    align-items: center;
+    margin-top: 20rpx;
+}
+
+.cardRedBtn {
+    display: flex;
+    align-items: center;
+    width: 210rpx;
+    height: 71rpx;
+    background-color: #ffffff;
+    border-radius: 35rpx;
+    font-size: 26rpx;
+    color: #101010;
+}
+
+.cardRedBtn image {
+    width: 33rpx;
+    height: 26rpx;
+    margin-left: 45rpx;
+    margin-right: 8rpx;
+}
+
+.cardWhite {
+    width: 655rpx;
+    margin: 0 auto;
+    background-color: white;
+    border: 1rpx solid #f2f2f2;
+    border-radius: 0 0 10rpx 10rpx;
+    box-shadow: 10rpx #f2f2f2;
+    margin-bottom: 20rpx;
+}
+
+.wxFlex {
+    display: flex;
+    align-items: center;
+    margin-left: 47rpx;
+    margin-top: 47rpx;
+    font-size: 26rpx;
+    color: #727272;
+}
+
+.wxFlex image {
+    width: 32rpx;
+    height: 25rpx;
+    margin-right: 22rpx;
+}
+
+.cardWhitexiahuaxian {
+    width: 586rpx;
+    height: 1rpx;
+    background-color: #f2f2f2;
+    margin: 30rpx auto;
+}
+
+.cardWhiteTxt {
+    width: 518rpx;
+    margin-left: 47rpx;
+    margin-bottom: 37rpx;
+    font-size: 26rpx;
+    color: #777777;
+}
+
+.companyDetailTxt {
+    width: 696rpx;
+    margin: 20rpx auto 0 auto;
+    font-size: 24rpx;
+    color: #777777;
+}
+
+.footBtnBox {
+    height: 152rpx;
+    width: 750rpx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    border-top: 1rpx solid #f2f2f2;
+    background-color: white;
+}
+
+.footBtnBoxBtn {
+    width: 673rpx;
+    height: 99rpx;
+    background-image: linear-gradient(-30deg, #ea3b2b 0%, #ec604e 100%);
+    border-radius: 45rpx;
+    text-align: center;
+    line-height: 99rpx;
+    font-size: 30rpx;
+    color: #ffffff;
+}
+
+.right {
+    width: 144rpx;
+    height: 468rpx;
+    background-color: white;
+    border-radius: 10rpx 0 0 10rpx;
+    border: 1rpx solid #f2f2f2;
+    position: fixed;
+    right: -1rpx;
+    top: 25vh;
+}
+
+.rightBtn {
+    height: 156rpx;
+    text-align: center;
+    font-size: 23rpx;
+    color: #939393;
+}
+
+.rightBtn image {
+    margin-top: 40rpx;
+    width: 40rpx;
+    height: 40rpx;
 }

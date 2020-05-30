@@ -1,27 +1,31 @@
 <!--components/jingmei-nav/jingmei-nav.wxml-->
-<view class="tab">
-    <view class="nav-head" style="animation:{{isshow?'movein 0.5s':'moveout 0.5s'}}" bindtap="showSheet">{{txt}}</view>
-    
-      <view class="sheets" wx:if="{{isshow}}">
-       <view class="sheet">露天煤矿</view>
-       <view class="sheet">选煤厂</view>
-       <view class="sheet">洗煤厂</view>
+<!--components/jingmei-nav/jingmei-nav.wxml-->
+<view class="jingmei-nav">
+    <view class="jingmeiNavBox clearfix">
+        <view class="dropDownMenu" bindtap="showDropdown">
+            <view class="dropDownMenuTxt">
+                精煤
+            </view>
+            <image class="" src="../../static/icon/13234@2x.png" />
+        </view>
+        <view class="dropDownMenuBox" wx:if="{{isshowDrop}}">
+            <view class="dropDownMenuBoxFlex" wx:for="{{4}}" wx:key="index">
+                <view>
+                    煤矿
+                </view>
+                <view>
+                    <image class="" src="../../static/icon/2wq@2x.png" />
+                </view>
+
+            </view>
+
+        </view>
+
+        <view class="productListBox">
+            <view wx:for="{{7}}" wx:key="index" class="{{activeIndex==index?'productListSizeRed':'productListSize'}}">
+                原煤
+            </view>
+        </view>
     </view>
-    <view class="nav-item">
-      <view class="item">原煤</view>
-      <view class="item">大块∨</view>
-      <view class="item">中块∨</view>
-      <view class="item">小块∨</view>
-      <view class="item">面煤∨</view>
-      <view class="item">煤泥∨</view>
-    </view>
-    <view class="nav-foot" bindtap="showitem">筛选</view>
-     
-     <view class="chooses" wx:if="{{choose}}">
-      <view class="choose">供应点</view>
-      <view class="choose">规格</view>
-      <view class="choose">指标</view>
-      <view class="choose">价格</view>
-    </view>
-   
+    <view style="height: 14rpx;background-color: #f2f2f2;"></view>
 </view>
