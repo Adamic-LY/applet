@@ -1,10 +1,12 @@
 /* pages/index-jingmei/index-jingmei.wxss */
+
 .searchBarBox {
     width: 100%;
     position: fixed;
     top: 0rpx;
     z-index: 1000;
 }
+
 .navBarBox {
     width: 100vw;
     position: fixed;
@@ -12,100 +14,120 @@
     background-color: #fff;
     z-index: 1001;
 }
-.jiange{
-  width: 750rpx;
-  height: 80rpx
+
+.jiange {
+    width: 750rpx;
+    height: 200rpx
 }
+
+
 /* pages/minningCompany/minningCompany.wxss */
 
-.items{
-  margin: 0 10rpx;
-  box-sizing: border-box
-}
-.flex{
-  display: flex
-}
-.border{
-  width: 750rpx;
-  height: 30rpx;
-  background-color: #faf9f9
-}
-.image-mei image{
-  width: 210rpx;
-  height: 250rpx;
-}
-.details{
-  width: 370rpx;
-  height: 250rpx;
-  margin-left: 10rpx;
-}
-.report{
-  margin-left: 10rpx
-}
-.report image{
-  width: 130rpx;
-  height: 220rpx
+.items {
+    margin: 0 10rpx;
+    box-sizing: border-box
 }
 
-.tag{
-  font-size: 30rpx;
-  font-weight: bold;
-  padding-right: 20rpx;
-  box-sizing: border-box
+.flex {
+    display: flex
 }
-.tagname{
-  font-size: 30rpx;
-  font-weight: bold;
+
+.border {
+    width: 750rpx;
+    height: 30rpx;
+    background-color: #faf9f9
 }
-.productprice{
-  display: flex;
-  align-items: center
+
+.image-mei image {
+    width: 210rpx;
+    height: 250rpx;
 }
-.price{
-  font-size: 35rpx;
-  font-weight: bold;
-  color: #fc3f00;
+
+.details {
+    width: 370rpx;
+    height: 250rpx;
+    margin-left: 10rpx;
 }
-.discounts{
-  margin-left: 10rpx;
-  height: 30rpx;
-  line-height: 30rpx;
-  font-size: 25rpx;
-  color: #fa3e3e;
-  text-align: center;
-  border: 1rpx solid #fa3e3e;
+
+.report {
+    margin-left: 10rpx
 }
-.elements{
-  width: 370rpx;
-  font-size: 25rpx;
-  font-weight: bold
+
+.report image {
+    width: 130rpx;
+    height: 220rpx
 }
-.float-left{
-  float: left
+
+.tag {
+    font-size: 30rpx;
+    font-weight: bold;
+    padding-right: 20rpx;
+    box-sizing: border-box
 }
-.float-right{
-  float: right
+
+.tagname {
+    font-size: 30rpx;
+    font-weight: bold;
 }
-.referral{
-  width: 200rpx;
-  height: 30rpx;
-  display: flex;
-  justify-content: space-around;
-  background-color: #f36503;
-  border-radius: 5rpx;
+
+.productprice {
+    display: flex;
+    align-items: center
 }
-.referral-txt{
-  font-size: 20rpx;
-  color: #f7eaf8;
+
+.price {
+    font-size: 35rpx;
+    font-weight: bold;
+    color: #fc3f00;
 }
-.productevaluate{
-  width: 230rpx;
-  height: 20rpx;
-  display: flex;
-  justify-content: space-between
+
+.discounts {
+    margin-left: 10rpx;
+    height: 30rpx;
+    line-height: 30rpx;
+    font-size: 25rpx;
+    color: #fa3e3e;
+    text-align: center;
+    border: 1rpx solid #fa3e3e;
 }
-.evaluate{
-  line-height: 20rpx;
-  font-size: 20rpx;
-  color: #b5b5b2
+
+.elements {
+    width: 370rpx;
+    font-size: 25rpx;
+    font-weight: bold
+}
+
+.float-left {
+    float: left
+}
+
+.float-right {
+    float: right
+}
+
+.referral {
+    width: 200rpx;
+    height: 30rpx;
+    display: flex;
+    justify-content: space-around;
+    background-color: #f36503;
+    border-radius: 5rpx;
+}
+
+.referral-txt {
+    font-size: 20rpx;
+    color: #f7eaf8;
+}
+
+.productevaluate {
+    width: 230rpx;
+    height: 20rpx;
+    display: flex;
+    justify-content: space-between
+}
+
+.evaluate {
+    line-height: 20rpx;
+    font-size: 20rpx;
+    color: #b5b5b2
 }

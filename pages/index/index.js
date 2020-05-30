@@ -1,7 +1,7 @@
 //index.js
 //获取应用实例
 const app = getApp()
-import {requestIndexClassify,requestIndexLb,requestIndexVideoRecommend} from "../../utils/network"
+import { requestIndexClassify, requestIndexLb, requestIndexVideoRecommend } from "../../utils/network"
 Page({
     data: {
         motto: 'Hello World',
@@ -10,12 +10,13 @@ Page({
         canIUse: wx.canIUse('button.open-type.getUserInfo'),
         isattention: null,
         // 视频推荐列表 
-        videoRecommend:null,
+        videoRecommend: null,
         // 轮播列表
-        lblist:null,
+        lblist: null,
         // 分类列表
-        classifyList:null,
-        lbid:1,
+        classifyList: null,
+        lbid: 1,
+        url: "http://wldpvc.com"
 
     },
     //事件处理函数
@@ -25,7 +26,7 @@ Page({
         })
     },
     onLoad: function() {
-        var that=this;
+        var that = this;
         if (app.globalData.userInfo) {
             this.setData({
                 userInfo: app.globalData.userInfo,
@@ -53,27 +54,29 @@ Page({
             });
         };
     },
-    onShow:function(){
+    onShow: function() {
         // 请求轮播
-        requestIndexLb().then(data=>{
-            this.setData({
-                lblist:data.data
+        requestIndexLb().then(data => {
+                this.setData({
+                        lblist: data.data
+                    })
+                    // console.log(this.data.lblist)
             })
-        })
-        // 请求首页大分类
-        requestIndexClassify().then(data=>{
-            this.setData({
-                classifyList:data.data
+            // 请求首页大分类
+        requestIndexClassify().then(data => {
+                this.setData({
+                    classifyList: data.data
+                })
+                console.log(this.data.classifyList)
             })
-        })
-        // 请求首页推荐视频
-        requestIndexVideoRecommend(1).then(data=>{
-              this.setData({
-                videoRecommend:data.data
-              })
+            // 请求首页推荐视频
+        requestIndexVideoRecommend(1).then(data => {
+            this.setData({
+                videoRecommend: data.data
+            })
         })
 
-      
+
     },
     getUserInfo: function(e) {
         console.log(e)
@@ -83,45 +86,45 @@ Page({
             hasUserInfo: true
         })
     },
-    changeAttention:function(e){
-        if(app.globalData.uid){
-            var arr=this.data.isattention
-            if(this.data.isattention[e.target.dataset.index]==1){
-                arr[e.target.dataset.index]=0;
+    changeAttention: function(e) {
+        if (app.globalData.uid) {
+            var arr = this.data.isattention
+            if (this.data.isattention[e.target.dataset.index] == 1) {
+                arr[e.target.dataset.index] = 0;
                 this.setData({
-                  isattention:arr
+                    isattention: arr
                 })
-            }else{
-              arr[e.target.dataset.index]=1;
-              this.setData({
-                  isattention:arr
+            } else {
+                arr[e.target.dataset.index] = 1;
+                this.setData({
+                    isattention: arr
                 })
             }
-        }else{
+        } else {
             wx.showModal({
-              title:"提示",
-              content:"请先登录",
-              success(res){
-                  if(res.confirm){
-                    //   wx.login({
-                    //     complete: (res) => {},
-                    //   })
-                  }else if(res.cancel){
-                      
-                  }
+                title: "提示",
+                content: "请先登录",
+                success(res) {
+                    if (res.confirm) {
+                        //   wx.login({
+                        //     complete: (res) => {},
+                        //   })
+                    } else if (res.cancel) {
 
-                  
-              }
+                    }
+
+
+                }
             })
         }
-         
+
     },
-    goswiperDetail(e){
-       this.setData({
-           lbid:e.currentTarget.id
-       })
-       wx.navigateTo({
-         url: '../../pages/swiper-jingmei/swiper-jingmei?currentid='+this.data.lbid,
-       })
+    goswiperDetail(e) {
+        this.setData({
+            lbid: e.currentTarget.id
+        })
+        wx.navigateTo({
+            url: '../../pages/swiper-jingmei/swiper-jingmei?currentid=' + this.data.lbid,
+        })
     }
 })

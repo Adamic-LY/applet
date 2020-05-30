@@ -1,6 +1,7 @@
 <!--components/jingmei-nav/jingmei-nav.wxml-->
 <!--components/jingmei-nav/jingmei-nav.wxml-->
 <view class="jingmei-nav">
+    <!-- 种类 -->
     <view class="jingmeiNavBox clearfix">
         <view class="dropDownMenu" bindtap="showDropdown">
             <view class="dropDownMenuTxt">
@@ -8,6 +9,7 @@
             </view>
             <image class="" src="../../static/icon/13234@2x.png" />
         </view>
+        <!-- 种类下拉 -->
         <view class="dropDownMenuBox" wx:if="{{isshowDrop}}">
             <view class="dropDownMenuBoxFlex" wx:for="{{4}}" wx:key="index">
                 <view>
@@ -20,12 +22,92 @@
             </view>
 
         </view>
-
         <view class="productListBox">
             <view wx:for="{{7}}" wx:key="index" class="{{activeIndex==index?'productListSizeRed':'productListSize'}}">
                 原煤
             </view>
         </view>
     </view>
-    <view style="height: 14rpx;background-color: #f2f2f2;"></view>
+    <!-- 排序 -->
+    <view class="filtrateBox">
+        <view class="filtrateBoxFlex">
+            <view class="filtrateDropdown" bindtap="showFiltarte">
+                <view style="font-size: 28rpx;font-weight: bold;">
+                    默认排序
+                </view>
+                <view class="filtrateDropdownImage">
+                    <image class="" src="../../static/icon/13234@2x.png" />
+                </view>
+            </view>
+            <view class="filtrateDropdownMenu">
+                <view>
+                    按销量
+                </view>
+                <view class="filtrateDropdownMenuImage">
+                    <image class="" src="../../static/icon/13234@2x.png" />
+                </view>
+            </view>
+            <view class="filtrateDropdownMenu">
+                <view>
+                    按评价
+                </view>
+                <view class="filtrateDropdownMenuImage">
+                    <image class="" src="../../static/icon/13234@2x.png" />
+                </view>
+            </view>
+            <view class="filtrateBtn">
+                <view>
+                    筛选
+                </view>
+                <image class="" src="../../static/icon/1327@2x.png" />
+            </view>
+        </view>
+        <!-- 排序下拉 -->
+        <view class="filtrateDropdownDetail" wx:if="{{ishowFiltarte}}">
+            <view class="filtrateDropdownDetailFlex">
+                <view>
+                    默认排序
+                </view>
+                <image class="" src="../../static/icon/2wq@2x.png" />
+            </view>
+            <view class="filtrateDropdownDetailFlex">
+                <view>
+                    价格由高到低
+                </view>
+                <image class="" src="../../static/icon/2wq@2x.png" />
+            </view>
+            <view class="filtrateDropdownDetailFlex">
+                <view>
+                    价格由低到高
+                </view>
+                <image class="" src="../../static/icon/2wq@2x.png" />
+            </view>
+            <view class="filtrateDropdownDetailFlex">
+                <view>
+                    销量由高到低
+                </view>
+                <image class="" src="../../static/icon/2wq@2x.png" />
+            </view>
+            <view class="filtrateDropdownDetailFlex">
+                <view>
+                    销量由低到高
+                </view>
+                <image class="" src="../../static/icon/2wq@2x.png" />
+            </view>
+            <view class="filtrateDropdownDetailFlex">
+                <view>
+                    评分从高到低
+                </view>
+                <image class="" src="../../static/icon/2wq@2x.png" />
+            </view>
+            <view class="filtrateDropdownDetailFlex">
+                <view>
+                    评分从低到高
+                </view>
+                <image class="" src="../../static/icon/2wq@2x.png" />
+            </view>
+
+        </view>
+
+    </view>
 </view>

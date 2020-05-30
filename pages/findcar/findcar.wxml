@@ -1,29 +1,29 @@
 <!--pages/findcar/findcar.wxml-->
 <view class="findcar">
-<view class="findcar-nav">
-   <fixed-nav></fixed-nav>
-</view>
-  <view class="findcar-item">
-    <view class="flex-item" bindtap="goorderinquiry">
-      <view class="item-image">
-        <image src=""></image>
-      </view>
-      <view class="item-txt">
-        <view class="item-flex">
-          <view class="item-luxian">西安 长安 - 榆林 府谷</view>
-          <view class="item-visite">浏览6</view>
-          <view class="item-time">4分钟前</view>
+    <view class="findcar-nav">
+        <fixed-nav></fixed-nav>
+    </view>
+    <view class="findcar-item">
+        <view class="flex-item" bindtap="goorderinquiry">
+            <view class="item-image">
+                <image src=""></image>
+            </view>
+            <view class="item-txt">
+                <view class="item-flex">
+                    <view class="item-luxian">西安 长安 - 榆林 府谷</view>
+                    <view class="item-visite">浏览6</view>
+                    <view class="item-time">4分钟前</view>
+                </view>
+                <view class="item-price">1000/趟</view>
+                <view class="item-size">11.7/12.5/13米/高栏/300吨</view>
+                <view class="item-way">煤炭 散装 今天下午装货 一装一卸</view>
+            </view>
         </view>
-        <view class="item-price">1000/趟</view>
-        <view class="item-size">11.7/12.5/13米/高栏/300吨</view>
-        <view class="item-way">煤炭 散装 今天下午装货 一装一卸</view>
-      </view>
+        <view class="item-btns">
+            <view class="item-btn">修改运费</view>
+            <view class="item-btn">删除货源</view>
+            <view class="item-btn" bindtap="goordercomplie">编辑</view>
+            <view class="item-btn">分享</view>
+        </view>
     </view>
-    <view class="item-btns">
-      <view class="item-btn">修改运费</view>
-      <view class="item-btn">删除货源</view>
-      <view class="item-btn" bindtap="goordercomplie">编辑</view>
-      <view class="item-btn">分享</view>
-    </view>
-  </view>
 </view>

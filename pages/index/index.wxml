@@ -14,55 +14,29 @@
         <!-- 首页轮播图 -->
         <swiper autoplay indicator-dots circular indicator-color="rgba(255, 255, 255, .3)" indicator-active-color="#fff">
             <block>
-                <swiper-item wx:for="{{lblist}}"  wx:key="index" class="data-v-74e39a5e"  >
-                        <view bindtap="goswiperDetail" id="{{lblist[index].id}}" class="home-top data-v-74e39a5e">
-                            <video url="{{lblist[index].video_url}}"  class="_img data-v-74e39a5e"></video>
-                        </view>
+                <swiper-item wx:for="{{lblist}}" wx:key="index" class="data-v-74e39a5e">
+                    <view bindtap="goswiperDetail" id="{{lblist[index].id}}" class="home-top data-v-74e39a5e">
+                        <video src="{{lblist[index].video_url}}" class="_img data-v-74e39a5e"></video>
+                    </view>
                 </swiper-item>
             </block>
         </swiper>
         <!-- 首页功能按钮 -->
         <view class="homeMenu">
             <view class="homeMenuList">
-                <view class="homeMenuListDetails" bindtap="gojingmei">
-                    <image src="../../static/icon/jingmei.png" alt=""></image>
-                    <view>精煤</view>
-                </view>
-                <view class="homeMenuListDetails" bindtap="golantan">
-                    <image src="../../static/icon/lantan.png" alt=""></image>
-                    <view>兰炭</view>
-                </view>
-                <view class="homeMenuListDetails" bindtap="gowuyanmei">
-                    <image src="../../static/icon/wuyanmei.png" alt=""></image>
-                    <view>无烟煤</view>
-                </view>
-                <view class="homeMenuListDetails" bindtap="gojinshumei">
-                    <image src="../../static/icon/jinshumei.png" alt=""></image>
-                    <view>金属镁</view>
-                </view>
-            </view>
-            <view class="homeMenuList">
-                <view class="homeMenuListDetails" bindtap="gomeijiaoyou">
-                    <image src="../../static/icon/meijiaoyou.png" alt=""></image>
-                    <view>煤焦油</view>
-                </view>
-                <view class="homeMenuListDetails" bindtap="gohuagong">
-                    <image src="../../static/icon/meihuagong.png" alt=""></image>
-                    <view>煤化工设备</view>
-                </view>
-                <view class="homeMenuListDetails" bindtap="goshebei">
-                    <image src="../../static/icon/shebei.png" alt=""></image>
-                    <view>煤矿设备</view>
-                </view>
-                <view class="homeMenuListDetails" bindtap="gowuliu">
-                    <image src="../../static/icon/wuliu.png" alt=""></image>
-                    <view>物流运输</view>
+                <view class="homeMenuListDetails" bindtap="gojingmei" wx:for="{{classifyList}}" wx:key="index" data-id="{{classifyList[index].id}}">
+                    <image src="{{url+classifyList[index].img_url}}" alt=""></image>
+                    <view class="homeMenuListDetailsTxt">{{classifyList[index].name}}</view>
+                    <view class="homeMenuListDetailsRed">
+                        {{26}}
+                    </view>
+
                 </view>
             </view>
         </view>
         <view class="jiange"></view>
         <view class="videoRecommend">
-            <image class=""  src="../../static/icon/xiegang.png" />
+            <image class="" src="../../static/icon/xiegang.png" />
             <view class="videoRecommendTxt">
                 视频推荐
             </view>
@@ -71,10 +45,10 @@
         <view class="companyVideo" wx:for="{{videoRecommend}}" wx:key="index">
             <view class="companyVideoFlex">
                 <view class="flexImage">
-                    <image class="" src="../../static/icon/xiegang.png" />
+                    <image class="" src="{{videoRecommend[index].user.picture}}" />
                 </view>
                 <view class="flexName">
-                    万润达兰炭集团有限公司
+                    {{videoRecommend[index].user.name}}
                 </view>
                 <view class="flexBtn" bindtap="attention">
                     <image class="" data-index="{{index}}" src="{{isattention[index]==0?'../../static/icon/yiguanzhu.png':'../../static/icon/guanzhu.png'}}" bindtap="changeAttention" />
@@ -84,7 +58,7 @@
                 公司煤炭储量货源充足,进货渠道多样,与榆林神木煤炭内蒙煤矿有着长期合作的关系
             </view>
             <view class="videoBox">
-                <video class="" src="{{videoRecommend[index].video_url}}"  direction="90" show-center-play-btn="{{true}}"  play-btn-position="center">
+                <video class="" src="{{videoRecommend[index].video_url}}" direction="90" show-center-play-btn="{{true}}" play-btn-position="center">
                     
                 </video>
 
@@ -113,7 +87,7 @@
             <view class="jiange" style="margin: 0 auto;"></view>
         </view>
     </view>
-    <view class="zhanwei" style="height: 300rpx;">
+    <view class="zhanwei" style="height: 180rpx;">
 
     </view>
 

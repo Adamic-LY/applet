@@ -13,7 +13,8 @@ Component({
     data: {
         txt: "煤矿",
         isshowDrop: false,
-        activeIndex: 0
+        activeIndex: 0,
+        ishowFiltarte: false
     },
 
     /**
@@ -21,7 +22,7 @@ Component({
      */
     methods: {
         showDropdown() {
-            if (this.data.isshowDropn) {
+            if (this.data.isshowDrop == true) {
                 this.setData({
                     isshowDrop: false
                 })
@@ -30,10 +31,19 @@ Component({
                     isshowDrop: true
                 })
             }
-            console.log(this.data.isshowDrop)
+        },
+        showFiltarte() {
+            if (this.data.ishowFiltarte == true) {
+                this.setData({
+                    ishowFiltarte: false
+                })
+            } else {
+                this.setData({
+                    ishowFiltarte: true
+                })
+            }
         }
 
     },
-
 
 })

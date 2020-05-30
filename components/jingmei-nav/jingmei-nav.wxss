@@ -93,3 +93,81 @@
     width: 12rpx;
     height: 21rpx;
 }
+
+.filtrateBox {
+    width: 750rpx;
+    height: 100rpx;
+    background-color: #f2f2f2;
+    display: flex;
+    align-items: center;
+}
+
+.filtrateBoxFlex {
+    margin: 0 auto;
+    width: 690rpx;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.filtrateDropdown {
+    display: flex;
+    /* font-size: 28rpx; */
+    align-items: center;
+}
+
+.filtrateDropdownImage {
+    margin-left: 20rpx;
+}
+
+.filtrateDropdownImage image {
+    width: 14rpx;
+    height: 9rpx;
+    vertical-align: middle;
+}
+
+.filtrateDropdownMenuImage image {
+    width: 14rpx;
+    height: 9rpx;
+    vertical-align: middle;
+    margin-left: 20rpx;
+}
+
+.filtrateBtn image {
+    width: 30rpx;
+    height: 26rpx;
+    vertical-align: middle;
+    margin-left: 5rpx;
+}
+
+.filtrateDropdownMenu,
+.filtrateBtn {
+    display: flex;
+    align-items: center;
+    font-size: 24rpx;
+    color: #1e1e1e;
+}
+
+.filtrateDropdownDetail {
+    width: 750rpx;
+    background-color: white;
+    position: fixed;
+    top: 295rpx;
+}
+
+.filtrateDropdownDetailFlex {
+    width: 690rpx;
+    height: 100rpx;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 26rpx;
+    color: #333333;
+    border-bottom: 1rpx solid #f2f2f2;
+}
+
+.filtrateDropdownDetailFlex image {
+    width: 12rpx;
+    height: 21rpx;
+}
